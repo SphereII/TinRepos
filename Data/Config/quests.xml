@@ -124,7 +124,7 @@
 	<quest id="challenge_silenceofthelambs" name_key="challenge_silenceofthelambs" subtitle_key="challenge_silenceofthelambs_subtitle" description_key="challenge_silenceofthelambs_offer" icon="ui_game_symbol_zombie"
 	repeatable="true" category_key="challenge" offer_key="challenge_silenceofthelambs_offer" difficulty="insane" >
 		<objective type="Time" value="1200" optional="true" />
-		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral" value="3" />
+		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerLDR,zombieScreamerSLPR,zombieScreamerFeralLDR,zombieScreamerFeralSLPR" value="3" />
 
 		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />
@@ -150,7 +150,7 @@
 		repeatable="true" category_key="challenge" offer_key="challenge_nurseyoubacktohealth_offer" difficulty="medium" >
 
 		<objective type="Time" value="900" optional="true" />
-		<objective type="ZombieKill" id="zombieNurse,zombieNurseFeral" value="3" />
+		<objective type="ZombieKill" id="zombieNurse,zombieNurseLDR,zombieNurseSLPR,zombieNurseFeralLDR,zombieNurseFeralSLPR" value="3" />
 
 		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />
@@ -159,7 +159,7 @@
 	<quest id="challenge_copanattitude" name_key="challenge_copanattitude" subtitle_key="challenge_copanattitude_subtitle" description_key="challenge_copanattitude_offer" icon="ui_game_symbol_zombie"
 		repeatable="true" category_key="challenge" offer_key="challenge_copanattitude_offer" difficulty="hard">
 		<objective type="Time" value="1500" optional="true" />
-		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated" value="2" />
+		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopLDR,zombieFatCopSLPR,zombieFatCopFeralLDR,zombieFatCopFeralRadiatedLDR" value="2" />
 
 		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />
@@ -177,7 +177,7 @@
 	<quest id="challenge_itsybitsyspider" name_key="challenge_itsybitsyspider" subtitle_key="challenge_itsybitsyspider_subtitle" description_key="challenge_itsybitsyspider_offer" icon="ui_game_symbol_zombie"
 		repeatable="true" category_key="challenge" offer_key="challenge_itsybitsyspider_offer" difficulty="medium">
 		<objective type="Time" value="900" optional="true" />
-		<objective type="ZombieKill" id="zombieSpider,zombieSpiderFeral,zombieSpiderFeralRadiated" value="3" />
+		<objective type="ZombieKill" id="zombieSpider,zombieSpiderLDR,zombieSpiderSLPR,zombieSpiderFeralLDR,zombieSpiderFeralSLPR,zombieSpiderFeralRadiatedLDR" value="3" />
 
 		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />
@@ -186,10 +186,10 @@
 	<quest id="challenge_ladykiller" name_key="challenge_ladykiller" subtitle_key="challenge_ladykiller_subtitle" description_key="challenge_ladykiller_offer" icon="ui_game_symbol_zombie"
 		repeatable="true" category_key="challenge" offer_key="challenge_ladykiller_offer" difficulty="medium">
 		<objective type="Time" value="900" optional="true" />
-		<objective type="ZombieKill" id="zombieArlene,zombieArleneFeral" value="1" />
-		<objective type="ZombieKill" id="zombieDarlene,zombieDarleneFeral" value="1" />
-		<objective type="ZombieKill" id="zombieMarlene,zombieMarleneFeral" value="1" />
-		<objective type="ZombieKill" id="zombieNurse,zombieNurseFeral" value="1" />
+		<objective type="ZombieKill" id="zombieArlene,zombieArleneFOD,zombieArleneLDR,zombieArleneSLPR,zombieArleneFeralLDR,zombieArleneFeralSLPR" value="1" />
+		<objective type="ZombieKill" id="zombieDarlene,zombieDarleneFOD,zombieDarleneLDR,zombieDarleneSLPR,zombieDarleneFeralLDR,zombieDarleneFeralSLPR" value="1" />
+		<objective type="ZombieKill" id="zombieMarlene,zombieMarleneFOD,zombieMarleneLDR,zombieMarleneSLPR,zombieMarleneFeralLDR,zombieMarleneFeralSLPR" value="1" />
+		<objective type="ZombieKill" id="zombieNurse,zombieNurseLDR,zombieNurseSLPR,zombieNurseFeralLDR,zombieNurseFeralSLPR" value="1" />
 
 		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />
@@ -199,11 +199,11 @@
 	<quest id="challenge_maneater" name_key="challenge_maneater" subtitle_key="challenge_maneater_subtitle" description_key="challenge_maneater_offer" icon="ui_game_symbol_zombie"
 		repeatable="true" category_key="challenge" offer_key="challenge_maneater_offer" difficulty="medium">
 		<objective type="Time" value="900" optional="true" />
-		<objective type="ZombieKill" id="zombieBoe,zombieBoeFeral" value="1" />
-		<objective type="ZombieKill" id="zombieJoe,zombieJoeFeral" value="1" />
-		<objective type="ZombieKill" id="zombieMoe,zombieMoeFeral" value="1" />
-		<objective type="ZombieKill" id="zombieYo,zombieYoFeral" value="1" />
-		<objective type="ZombieKill" id="zombieSteve,zombieSteveFeral" value="1" />
+		<objective type="ZombieKill" id="zombieBoe,zombieBoeFOD,zombieBoeLDR,zombieBoeSLPR,zombieBoeFeralLDR,zombieBoeFeralSLPR" value="1" />
+		<objective type="ZombieKill" id="zombieJoe,zombieJoeFOD,zombieJoeLDR,zombieJoeSLPR,zombieJoeFeralLDR,zombieJoeFeralSLPR" value="1" />
+		<objective type="ZombieKill" id="zombieMoe,zombieMoeFOD,zombieMoeLDR,zombieMoeSLPR,zombieMoeFeralLDR,zombieMoeFeralSLPR" value="1" />
+		<objective type="ZombieKill" id="zombieYo,zombieYoFOD,zombieYoLDR,zombieYoSLPR,zombieYoFeralLDR,zombieYoFeralSLPR" value="1" />
+		<objective type="ZombieKill" id="zombieSteve,zombieSteveFOD,zombieSteveLDR,zombieSteveSLPR,zombieSteveFeralLDR,zombieSteveFeralSLPR" value="1" />
 
 		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />
@@ -212,11 +212,11 @@
 	<quest id="challenge_yournothingspecial" name_key="challenge_yournothingspecial" subtitle_key="challenge_yournothingspecial_subtitle" description_key="challenge_yournothingspecial_offer" icon="ui_game_symbol_zombie"
 		repeatable="true" category_key="challenge" offer_key="challenge_yournothingspecial_offer" difficulty="insane">
 		<objective type="Time" value="1800" optional="true" />
-		<objective type="ZombieKill" id="zombieSpider,zombieSpiderFeral,zombieSpiderFeralRadiated" value="1" />
-		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated" value="1" />
-		<objective type="ZombieKill" id="zombieWightFeral,zombieWightFeralRadiated" value="1" />
-		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral" value="1" />
-		<objective type="ZombieKill" id="zombieBurnt" value="1" />
+		<objective type="ZombieKill" id="zombieSpider,zombieSpiderLDR,zombieSpiderSLPR,zombieSpiderFeralLDR,zombieSpiderFeralSLPR,zombieSpiderFeralRadiatedLDR" value="1" />
+		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopLDR,zombieFatCopSLPR,zombieFatCopFeralLDR,zombieFatCopFeralRadiatedLDR" value="1" />
+		<objective type="ZombieKill" id="zombieWightFeral,zombieWightFeralLDR,zombieWightFeralSLPR,zombieWightFeralRadiatedLDR" value="1" />
+		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerLDR,zombieScreamerSLPR,zombieScreamerFeralLDR,zombieScreamerFeralSLPR" value="1" />
+		<objective type="ZombieKill" id="zombieBurnt,zombieBurntLDR,zombieBurntSLPR" value="1" />
 
 		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />
@@ -226,7 +226,7 @@
 		repeatable="true" category_key="challenge" offer_key="challenge_imalumberjackandimokay_offer" difficulty="hard">
 
 		<objective type="Time" value="900" optional="true" />
-		<objective type="ZombieKill" id="zombieSnow,zombieSnowFeral" value="3" />
+		<objective type="ZombieKill" id="zombieSnow,zombieSnowLDR,zombieSnowSLPR,zombieSnowFeralLDR,zombieSnowFeralSLPR" value="3" />
 
 		<requirement type="Group" id="requirementGroupFireaxe" value="OR">
 			<requirement type="Holding" id="fireaxeIron" />
