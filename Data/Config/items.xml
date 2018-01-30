@@ -6669,7 +6669,8 @@ Mesh files no longer used:
 		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="15"/>
-		<property name="Buff" value="eatFood_8_Trigger"/>
+		<property name="Buff" value="eatFood_8_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="-10"/>
 		<property name="Sound_start" value="player_eating"/>
 		<property name="Create_item" value="canEmpty"/>
@@ -6696,7 +6697,8 @@ Mesh files no longer used:
 		<property name="Delay" value="2.0"/>
 		<property name="Use_time" value="..."/>
 		<property name="Gain_food" value="5"/>
-		<property name="Buff" value="eatFood_3_Trigger"/>
+		<property name="Buff" value="eatFood_3_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="-2"/>
 		<property name="Gain_gas" value="0"/>
 		<property name="Sound_start" value="player_eating"/>
@@ -6710,7 +6712,8 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Food/can_dogfoodPrefab"/>
 	<property class="Action1">
 		<property name="Gain_food" value="5"/>
-		<property name="Buff" value="eatFood_3_Trigger"/>
+		<property name="Buff" value="eatFood_3_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="-2"/>
 		<property name="Gain_gas" value="0"/>
 	</property>
@@ -6721,7 +6724,8 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Food/can_chiliPrefab"/>
 	<property class="Action1">
 		<property name="Gain_food" value="10"/>
-		<property name="Buff" value="eatFood_5_Trigger"/>
+		<property name="Buff" value="eatFood_5_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="-5"/>
 		<property name="Gain_gas" value="0"/>
 	</property>
@@ -6733,7 +6737,8 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Food/can_misoPrefab"/>
 	<property class="Action1">
 		<property name="Gain_food" value="5"/>
-		<property name="Buff" value="eatFood_3_Trigger"/>
+		<property name="Buff" value="eatFood_3_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="10"/>
 	</property>
 </item>
@@ -6743,7 +6748,8 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Food/can_pastaPrefab"/>
 	<property class="Action1">
 		<property name="Gain_food" value="7"/>
-		<property name="Buff" value="eatFood_4_Trigger"/>
+		<property name="Buff" value="eatFood_4_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="0"/>
 	</property>
 </item>
@@ -6753,7 +6759,8 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Food/can_peasPrefab"/>
 	<property class="Action1">
 		<property name="Gain_food" value="5"/>
-		<property name="Buff" value="eatFood_3_Trigger"/>
+		<property name="Buff" value="eatFood_3_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="0"/>
 	</property>
 </item>
@@ -6763,7 +6770,8 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Food/can_pearsPrefab"/>
 	<property class="Action1">
 		<property name="Gain_food" value="5"/>
-		<property name="Buff" value="eatFood_3_Trigger"/>
+		<property name="Buff" value="eatFood_3_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="10"/>
 	</property>
 </item>
@@ -6773,7 +6781,8 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Food/can_soupPrefab"/>
 	<property class="Action1">
 		<property name="Gain_food" value="5"/>
-		<property name="Buff" value="eatFood_3_Trigger"/>
+		<property name="Buff" value="eatFood_3_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="10"/>
 	</property>
 </item>
@@ -6783,7 +6792,8 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Food/can_stockPrefab"/>
 	<property class="Action1">
 		<property name="Gain_food" value="5"/>
-		<property name="Buff" value="eatFood_3_Trigger"/>
+		<property name="Buff" value="eatFood_3_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="10"/>
 	</property>
 </item>
@@ -6793,7 +6803,8 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Food/can_tunaPrefab"/>
 	<property class="Action1">
 		<property name="Gain_food" value="5"/>
-		<property name="Buff" value="eatFood_3_Trigger"/>
+		<property name="Buff" value="eatFood_3_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="-2"/>
 	</property>
 </item>
@@ -6811,7 +6822,8 @@ Mesh files no longer used:
 		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="7"/>
-		<property name="Buff" value="eatFood_4_Trigger"/>
+		<property name="Buff" value="eatFood_4_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 		<property name="Gain_water" value="-5"/>
 		<property name="Sound_start" value="player_eating"/>
 		<property name="Create_item" value="canEmpty"/>
@@ -6824,7 +6836,8 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Food/can_salmonPrefab"/>
 	<property class="Action1">
 		<property name="Gain_food" value="5"/>
-		<property name="Buff" value="eatFood_3_Trigger"/>
+		<property name="Buff" value="eatFood_3_Trigger,wellnessSmallLoss"/>
+		<property name="Buff_chance" value="1,0.3"/>
 	</property>
 </item>
 

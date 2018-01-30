@@ -170,6 +170,7 @@ If you do not declare them, the decorations of the main biome are used.
 				
 			</replacements>
 			
+			<spectrum name="pine_forest" />
 			<terrain class="Mountains"/>
 
 			<subbiome prob="0.166"> <!-- Snow Sub Biome grass and Blueberries -->
@@ -393,7 +394,8 @@ If you do not declare them, the decorations of the main biome are used.
 				
 			</replacements>
 		
-			<spectrum name="water"/>
+			<!--<spectrum name="water"/>-->
+			<spectrum name="pine_forest" />
 			<terrain class="Mountains"/>
 			
 			<subbiome prob="0.1"> <!-- Forest Sub Biome: Goldenrod, cotton, rocks -->
@@ -660,7 +662,8 @@ If you do not declare them, the decorations of the main biome are used.
 			</weather>
 			
 			
-			<spectrum name="water"/>
+			<!--<spectrum name="water"/>-->
+			<spectrum name="pine_forest" />
 			<terrain class="Mountains"/>
 
 			<subbiome prob="0.1"> <!-- Pine Forest Sub Biome Clustered Flowers and Boulders -->
@@ -920,7 +923,8 @@ If you do not declare them, the decorations of the main biome are used.
 			</weather>
 			
 				
-			<spectrum name="water"/>
+			<!--<spectrum name="water"/>-->
+			<spectrum name="pine_forest" />
 			<terrain class="Mountains"/>
 
 			<subbiome prob="0.1"> <!-- Plains Sub Biome Clustered Trees -->
@@ -1142,7 +1146,8 @@ If you do not declare them, the decorations of the main biome are used.
 			</weather>
 			
 			
-			<spectrum name="water"/>
+			<!--<spectrum name="water"/>-->
+			<spectrum name="pine_forest" />
 			<terrain class="Mountains"/>
 			
 			<subbiome prob="0.2"> <!-- Desert Sub Biome Clustered Cactus and Desert Shrub -->
@@ -1342,7 +1347,8 @@ If you do not declare them, the decorations of the main biome are used.
 			</weather>
 			
 			
-			<spectrum name="water"/>
+			<!--<spectrum name="water"/>-->
+			<spectrum name="pine_forest" />
 			<terrain class="Mountains"/>
 			
 			<subbiome prob="0.05"> <!-- Water Sub Biome: Clay -->
@@ -1570,7 +1576,8 @@ If you do not declare them, the decorations of the main biome are used.
 			</weather>
 			
 			
-			<spectrum name="water"/>
+			<!--<spectrum name="water"/>-->
+			<spectrum name="pine_forest" />
 			<terrain class="Mountains"/>
 			
 			<subbiome prob="0.1"> <!-- Wasteland Sub Biome: Plainsground -->
@@ -1808,7 +1815,8 @@ If you do not declare them, the decorations of the main biome are used.
 			</weather>
 		
 			
-			<spectrum name="water"/>
+			<!--<spectrum name="water"/>-->
+			<spectrum name="pine_forest" />
 			<terrain class="Mountains"/>
 
 			<subbiome prob="0.2"> <!-- Burnt Forest Sub Biome Coal and Corpses -->

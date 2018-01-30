@@ -420,6 +420,11 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 
 <buff id="wellnessSmallGain" duration="1000" stack="discard" actions="increment(@wellness, 1, 0, 0, 1)" icon="ui_game_symbol_smell" name_key="wellnessSmallGain" description_key="wellnessSmallGainDesc" tooltip_key="wellnessSmallGainTooltip"/>
 
+
+<buff id="wellnessSmallLoss" duration="120" stack="discard" actions="increment(@wellness, -1, 0, 0, 1)" icon="ui_game_symbol_food_poisoning" name_key="wellnessSmallLoss" description_key="wellnessSmallLossDesc: I'm surprised I didn't vomit!" tooltip_key="wellnessSmallLossTooltip: Maybe I shouldn't have ate what was in that can?.."/>
+
+
+
 <buff id="warmByFire" duration="0" stack="discard" buffif="+heatSource gequal 1" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
 	<modify id="0" stat="coretemp" modifyValue="30"/>
 </buff>
