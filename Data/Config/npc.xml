@@ -16,6 +16,13 @@
 		greeting_type="nearby"
 		trader_id="1" dialog_id="medstudent1" />
 
+	<npc_info
+		id="GhoulNPC"
+		name="Traitor Joel"
+		name_key="npc_traderRekt"
+		faction="goblins"
+		greeting_type="nearby"/>
+		
 	<factions>
 		<faction name="none">
 			<relationship name="*" value="neutral"/>

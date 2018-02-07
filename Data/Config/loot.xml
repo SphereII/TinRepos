@@ -966,7 +966,6 @@
 	<item name="egg" count="1,2"/>
 	<item name="blueberryPie"/>
 	<item name="meatStew"/>
-	<item name="rawMeat" count="1,2"/>
 	<item name="rottingFlesh" count="1,2"/>
 	<item name="corn"/>
 	<item name="potato"/>

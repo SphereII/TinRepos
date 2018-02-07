@@ -2,7 +2,6 @@
 <prefab>
     <property name="CopyAirBlocks" value="False" />
     <property name="AllowTopSoilDecorations" value="False" />
-    <property name="TraderArea" value="False" />
 	<property name="Zoning" value="Commercial,downtown,industrial" />
     <property name="RotationToFaceNorth" value="2" />
     <property name="YOffset" value="-1" />
@@ -13,5 +12,6 @@
     <property name="SleeperVolumeGroup" value="Hospital,Hospital,Hospital,Hospital,Hospital" />
     <property name="SleeperVolumeGameStageAdjust" value=",,,medium,medium" />
     <property name="SleeperIsLootVolume" value="False,False,False,True,True" />
+	
     <property name="DistantPOIYOffset" value="0" />
 </prefab>
