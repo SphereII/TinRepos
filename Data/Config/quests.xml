@@ -32,9 +32,7 @@
 		<objective type="FetchKeep" id="yuccaFibers" value="20" />
 		<objective type="Craft" id="bedroll" value="1" />
 		<objective type="BlockPlace" id="bedroll" value="1" />
-		
-		<reward type="Item" id="gunHuntingRifle" value="100" />
-		<reward type="Item" id="762mmBullet" value="12"/>
+
 		<reward type="Quest" id="quest_BasicSurvival2" />
     </quest>
 
