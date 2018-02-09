@@ -1114,12 +1114,6 @@ Mesh files no longer used:
 	<property name="Range" value="1.5"/>
 	<property name="Sphere" value="1.1"/>
 	<property name="Block_range" value="1.5"/>
-	<property class="Action0">
-		<property name="DamageEntity" value="5"/>
-		<property name="DamageBlock" value="10"/>
-		<property name="Buff" value="minbleeding,bleeding,maxbleeding,infection,infectionB,infectionC,stunned"/>
-		<property name="Buff_chance" value="0.06,0.04,0.02,0.04,0.04,0.04,0.3"/>
-	</property>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="Vomit"/>
 		<property name="Delay" value="0.35"/>
@@ -1164,16 +1158,15 @@ Mesh files no longer used:
 </item>
 
 
-<item id="74" name="handZombieTest3">
+<item id="74" name="handGhoul">
 	<property name="Extends" value="handMaster"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="9"/>
-	<property name="Degradation" value="99999" param1="true"/>
-	<property name="Range" value="1.65"/>
-	<property name="Sphere" value="0.2"/>
-	<property name="Block_range" value="1.65"/>
-	<property name="Delay" value="1.33"/>
 	<property class="Action0">
+		<property name="Range" value="1.25"/> <!-- This not what "clientside melee combat" means. =) This is the adjustment afterwards due to code changes. -->
+		<property name="Sphere" value="0.1"/>
+		<property name="Delay" value="0.79"/>
+		<property name="Block_range" value="2.1"/>
 		<property name="DamageEntity" value="5"/>
 		<property name="DamageBlock" value="10"/>
 		<property name="Buff" value="minbleeding,bleeding,maxbleeding,infection,infectionB,infectionC,stunned"/>

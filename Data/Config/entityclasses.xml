@@ -4264,9 +4264,9 @@
 <entity_class name="zedSPTR" extends="zombieTemplateLeaders">
 	<property name="Mesh" value="Zombies/zombieStandardNurseRagdoll"/>
 	<property name="Class" value="EntityZombieCop"/> <!-- EntityZombieCop -->
-	<property name="HandItem" value="handZombieTest2"/>
+	<property name="HandItem" value="handZombie"/>
 	<property name="WalkType" value="7"/>
-	<property name="RightHandJointName" value="Jaw"/>
+	<property name="RightHandJointName" value="handZombieTest2"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="CanClimbLadders" value="true"/>
@@ -4320,9 +4320,6 @@
 	<property class="MechanimDeathStates">
 		<property name="state0" value="Death"/>
 	</property>
-	
-	
-	
 	
 	<property name="ApproachSpeed" value="0.45"/>
 	<property name="NightApproachSpeed" value="0.45"/>
@@ -4597,7 +4594,8 @@
 	<property name="EntityType" value="Zombie"/>
 	
 	<property name="Mesh" value="Zombies/zombie01Ragdoll" />
-	<property name="AvatarController" value="AvatarZombieUMAController" />
+	<!--<property name="AvatarController" value="AvatarZombieUMAController" />-->
+	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="ZombieUMA" />
 	<property name="RootMotion" value="true" />
 	<property name="HasRagdoll" value="true"/>
@@ -4605,7 +4603,7 @@
 	<property name="Class" value="EntityBandit"/>
 	<property name="Parent" value="Enemies"/>
 	<property name="PhysicsBody" value="zombieUMA" />
-	<!--<property name="Faction" value="undead"/>-->
+	
 	<property name="Faction" value="bandits"/>
 	<property name="MaxTurnSpeed" value="145"/>
 	<property name="IsEnemyEntity" value="false" />
@@ -4687,12 +4685,12 @@
 	
 	<property name="MaxHealth" value="225"/>
 	<property name="MaxViewAngle" value="270"/>
-	<property name="HandItem" value="handZombie"/>
+	<property name="HandItem" value="handGhoul"/>
 	<property name="Weight" value="70"/>
 	<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
 
 	<property name="WanderSpeed" value="0.2"/>
-	<property name="ApproachSpeed" value="0.41"/>
+	<property name="ApproachSpeed" value="0.40"/>
 	<property name="NightWanderSpeed" value="0.2"/>
 	<property name="NightApproachSpeed" value="0.9"/>
 	<property name="PanicSpeed" value="0.9"/>
