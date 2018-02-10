@@ -1163,9 +1163,9 @@ Mesh files no longer used:
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="9"/>
 	<property class="Action0">
-		<property name="Range" value="1.25"/> <!-- This not what "clientside melee combat" means. =) This is the adjustment afterwards due to code changes. -->
+		<property name="Range" value="1.45"/> <!-- This not what "clientside melee combat" means. =) This is the adjustment afterwards due to code changes. -->
 		<property name="Sphere" value="0.1"/>
-		<property name="Delay" value="0.79"/>
+		<property name="Delay" value="1.1"/>
 		<property name="Block_range" value="2.1"/>
 		<property name="DamageEntity" value="5"/>
 		<property name="DamageBlock" value="10"/>

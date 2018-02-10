@@ -20,7 +20,7 @@
 		<entity name="zombieBurntSLPR" prob="0.043"/>
 		<entity name="zombieNurseSLPR" prob="0.043"/>
 		<entity name="zombieFatHawaiianSLPR" prob="0.043"/>
-		<entity name="zombieFatCopSLPR" prob="0.013"/>
+		<!--<entity name="zombieFatCopSLPR" prob="0.013"/>-->
 		<entity name="zombieMaleHazmatSLPR" prob="0.043"/>
 		<entity name="zombieUtilityWorkerSLPR" prob="0.043"/>
 		<entity name="zombieSoldierSLPR" prob="0.043"/>
@@ -115,7 +115,7 @@
 		<entity name="zombieFatHawaiianFeralLDR" prob="0.043"/>
 		<entity name="zombieFatCopFeralLDR" prob="0.043"/>
 		<entity name="zombieUtilityWorkerFeralLDR" prob="0.043"/>
-		<entity name="zombieSoldierFeralLDR" prob="0.043"/>
+		<entity name="zombieSoldierSLPR" prob="1"/>
 		<entity name="zombieSkateboarderFeralLDR" prob="0.043"/>
 		<entity name="zombieCheerleaderFeralLDR" prob="0.043"/>
 		<entity name="zombieOldTimerFeralLDR" prob="0.043"/>
@@ -261,7 +261,7 @@
 		<entity name="zombieBusinessManSLPR" prob="0.0625"/>
 		<entity name="zombieNurseSLPR" prob="0.0625"/>
 		<entity name="zombieFatHawaiianSLPR" prob="0.0625"/>
-		<entity name="zombieFatCopSLPR" prob="0.0039"/>
+		<!--<entity name="zombieFatCopSLPR" prob="0.0039"/>-->
 		<entity name="zombieMaleHazmatSLPR" prob="0.0625"/>
 		<entity name="zombieUtilityWorkerSLPR" prob="0.0625"/>
 		<entity name="zombieSoldierSLPR" prob="0.0625"/>
@@ -457,7 +457,8 @@
 		<entity name="zombieBusinessManFeralSLPR" prob="0.0039"/>
 		<entity name="zombieNurseFeralSLPR" prob="0.0039"/>
 		<entity name="zombieFatHawaiianFeralSLPR" prob="0.0039"/>
-		<entity name="zombieFatCopFeralSLPR" prob="0.0039"/>
+		<!--<entity name="zombieFatCopFeralSLPR" prob="0.0039"/>-->
+		<entity name="zombieSoldierFeralSLPR" prob="0.0039"/>
 		<entity name="zombieUtilityWorkerFeralSLPR" prob="0.0039"/>
 		<entity name="zombieSkateboarderFeralSLPR" prob="0.0039"/>
 		<entity name="zombieCheerleaderFeralSLPR" prob="0.0039"/>
@@ -476,7 +477,7 @@
 		<entity name="zombieBusinessManSLPR" prob="0.0625"/>
 		<entity name="zombieNurseSLPR" prob="0.0625"/>
 		<entity name="zombieFatHawaiianSLPR" prob="0.0625"/>
-		<entity name="zombieFatCopSLPR" prob="0.0625"/>
+		<!--<entity name="zombieFatCopSLPR" prob="0.0625"/>-->
 		<entity name="zombieMaleHazmatSLPR" prob="0.0625"/>
 		<entity name="zombieUtilityWorkerSLPR" prob="0.0625"/>
 		<entity name="zombieSoldierSLPR" prob="0.0625"/>
@@ -500,7 +501,8 @@
 		<entity name="zombieBusinessManFeralSLPR" prob="0.0039"/>
 		<entity name="zombieNurseFeralSLPR" prob="0.0039"/>
 		<entity name="zombieFatHawaiianFeralSLPR" prob="0.0039"/>
-		<entity name="zombieFatCopFeralSLPR" prob="0.0039"/>
+		<!--<entity name="zombieFatCopFeralSLPR" prob="0.0039"/>-->
+		<entity name="zombieSoldierFeralSLPR" prob="0.0039"/>
 		<entity name="zombieUtilityWorkerFeralSLPR" prob="0.0039"/>
 		<entity name="zombieSoldierFeralSLPR" prob="0.0039"/>
 		<entity name="zombieSkateboarderFeralSLPR" prob="0.0039"/>
@@ -522,7 +524,7 @@
 		<entity name="zombieBusinessManSLPR" prob="0.0625"/>
 		<entity name="zombieNurseSLPR" prob="0.0625"/>
 		<entity name="zombieFatHawaiianSLPR" prob="0.0625"/>
-		<entity name="zombieFatCopSLPR" prob="0.0039"/>
+		<!--<entity name="zombieFatCopSLPR" prob="0.0039"/>-->
 		<entity name="zombieMaleHazmatSLPR" prob="0.0625"/>
 		<entity name="zombieUtilityWorkerSLPR" prob="0.0625"/>
 		<entity name="zombieSoldierSLPR" prob="0.0625"/>
@@ -549,7 +551,7 @@
 		<entity name="zombieSteveFeralSLPR" prob="0.0039"/>
 		<entity name="zombieBusinessManFeralSLPR" prob="0.0039"/>
 		<entity name="zombieFatHawaiianFeralSLPR" prob="0.0039"/>
-		<entity name="zombieFatCopFeralSLPR" prob="0.0039"/>
+		<!--<entity name="zombieFatCopFeralSLPR" prob="0.0039"/>-->
 		<entity name="zombieUtilityWorkerFeralSLPR" prob="0.0039"/>
 		<entity name="zombieSoldierFeralSLPR" prob="0.0039"/>
 		<entity name="zombieSkateboarderFeralSLPR" prob="0.0039"/>
@@ -571,7 +573,7 @@
 		<entity name="zombieBusinessManSLPR" prob="0.0625"/>
 		<entity name="zombieNurseSLPR" prob="0.0625"/>
 		<entity name="zombieFatHawaiianSLPR" prob="0.0625"/>
-		<entity name="zombieFatCopSLPR" prob="0.0039"/>
+		<!--<entity name="zombieFatCopSLPR" prob="0.0039"/>-->
 		<entity name="zombieMaleHazmatSLPR" prob="0.0625"/>
 		<entity name="zombieUtilityWorkerSLPR" prob="0.0625"/>
 		<entity name="zombieSoldierSLPR" prob="0.0625"/>
@@ -585,8 +587,10 @@
 	</entitygroup>
 	
 	<entitygroup name="ZombieCopShopMix">
-		<entity name="zombieFatCopSLPR" prob="1"/>
-		<entity name="zombieFatCopFeralSLPR" prob="0.25"/>
+		<entity name="zombieSoldierSLPR" prob="1"/>
+		<entity name="zombieSoldierFeralSLPR" prob="0.025"/>
+		<!--<entity name="zombieFatCopSLPR" prob="1"/>-->
+		<!--<entity name="zombieFatCopFeralSLPR" prob="0.25"/>-->
 		<entity name="zombieBoeFeralSLPR" prob="0.0039"/>
 		<entity name="zombieFemaleFatFeralSLPR" prob="0.0039"/>
 		<entity name="zombieJoeFeralSLPR" prob="0.0039"/>
@@ -632,13 +636,14 @@
 		<entity name="zombieSoldierFeralSLPR" prob="0.0312"/>
 		<entity name="animalZombieDog" prob="0.0312"/>
 		<entity name="zombieNurseSLPR" prob="0.0625"/>
-		<entity name="zombieFatCopSLPR" prob="0.0039"/>
-		<entity name="zombieFatCopFeralSLPR" prob="0.0039"/>
+		<!--<entity name="zombieFatCopSLPR" prob="0.0039"/>-->
+		<!--<entity name="zombieFatCopFeralSLPR" prob="0.0039"/>-->
 		<entity name="zombieHooker" prob="0.0039"/>
 		<!--<entity name="zombieStripperFeralSLPR" prob="0.0039"/>-->
 	</entitygroup>
 	
 	<entitygroup name="Ghouls">
+		<entity name="invisibleAnimalEnemy" prob="0.6"/>
 		<entity name="GhoulMale" prob="0.3"/>
 		<entity name="GhoulMale2" prob="0.3"/>
 		<entity name="GhoulFemale" prob="0.2"/>
@@ -659,7 +664,7 @@
 
 	<entitygroup name="ZombieScouts">
 		<entity name="ScreamerBoss" prob="0.05"/>	
-		<entity name="zombieScreamerLDR"/>	
+		<entity name="zombieScreamerLDR" prob="1"/>	
 		<!--<entity name="GhoulFemaleScreamer" prob="0.25"/>-->
 	</entitygroup>
 	
