@@ -4303,7 +4303,7 @@
 		</dna>
 	</archetype>
 	
-	<archetype name="GhoulMale" male="true" hair_color="30,30,30" eye_color="65,255,55" skin_color="85,85,85" type="Player" stance="Like" voice_set="trader">
+	<archetype name="GhoulMale" male="true" hair_color="30,30,30" eye_color="65,255,55" skin_color="85,85,85" type="Zombie" stance="Like" voice_set="trader">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
@@ -4441,7 +4441,7 @@
 		</dna>
 	</archetype>
 	
-	<archetype name="GhoulMale2" male="true" hair_color="100,100,100" eye_color="55,255,55" skin_color="85,85,85" type="Player" stance="Like" voice_set="trader">
+	<archetype name="GhoulMale2" male="true" hair_color="100,100,100" eye_color="55,255,55" skin_color="85,85,85" type="Zombie" stance="Like" voice_set="trader">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
@@ -4582,7 +4582,7 @@
 		</dna>
 	</archetype>
 	
-	<archetype name="GhoulFemale" male="true" hair_color="30,30,30" eye_color="65,255,55" skin_color="85,85,85" type="Player" stance="Like" voice_set="trader">
+	<archetype name="GhoulFemale" male="true" hair_color="30,30,30" eye_color="65,255,55" skin_color="85,85,85" type="Zombie" stance="Like" voice_set="trader">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="female_base_face">
 				<texture name="female_head_zombie" color="skin"/>
@@ -4723,7 +4723,7 @@
 		</dna>
 	</archetype>
 	
-	<archetype name="GhoulFemale2" male="true" hair_color="30,30,30" eye_color="65,255,55" skin_color="85,85,85" type="Player" stance="Like" voice_set="trader">
+	<archetype name="GhoulFemale2" male="true" hair_color="30,30,30" eye_color="65,255,55" skin_color="85,85,85" type="Zombie" stance="Like" voice_set="trader">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="female_base_face">
 				<texture name="female_head_zombie" color="skin"/>
@@ -4866,7 +4866,7 @@
 		</dna>
 	</archetype>
 	
-	<archetype name="GhoulFemaleScreamer" male="true" hair_color="30,30,30" eye_color="65,255,55" skin_color="85,85,85" type="Player" stance="Like" voice_set="trader">
+	<archetype name="GhoulFemaleScreamer" male="true" hair_color="30,30,30" eye_color="65,255,55" skin_color="85,85,85" type="Zombie" stance="Like" voice_set="trader">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="female_base_face">
 				<texture name="female_head_zombie" color="skin"/>
@@ -5017,7 +5017,7 @@
 		</dna>
 	</archetype>
 	
-	<archetype name="ZombieHooker" male="false" hair_color="30,29,28" eye_color="184,169,166" skin_color="135,170,186" type="Player">
+	<archetype name="ZombieHooker" male="false" hair_color="30,29,28" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
 		<base_mesh_parts>
 		
 			<part slot="head" layer="base" mesh="female_base_face_pretty">

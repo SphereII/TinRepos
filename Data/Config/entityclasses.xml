@@ -54,6 +54,7 @@
 	<property name="LegsExplosionDamageMultiplier" value="1"/>
 	<property name="ArmsExplosionDamageMultiplier" value="1"/>
 	<property name="HeadExplosionDamageMultiplier" value="1"/>
+	<!--<property name="Faction" value="bandits"/>-->
 </entity_class>
 
 <entity_class name="playerFemale" extends="playerMale"> <!-- ignore="<excluded defs>" to not extend unwanted properties -->
@@ -4775,6 +4776,7 @@
     <property name="Archetype" value="GhoulMale"/>
 	<property name="Faction" value="undead" />
 	<property name="NPCID" value="GhoulNPC"/>
+	<!--<property name="AIPackages" value="MeleeAITest"/>-->
 </entity_class>
 
 <entity_class name="GhoulMale2" extends="GhoulUMA">

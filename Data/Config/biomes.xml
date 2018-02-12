@@ -215,7 +215,7 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="block" blockname="rock06" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="rock07" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="cntBirdnest" prob="0.001"/>
-					<decoration type="block" blockname="tinMistParticle" prob="0.00015"/>
+					<!--<decoration type="block" blockname="tinMistParticle" prob="0.00015"/>-->
 					<decoration type="block" blockname="lootForestHelper" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="snowberry3Harvest" prob="0.001" rotatemax="4"/>
@@ -266,7 +266,7 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="block" blockname="rock05" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="rock06" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="rock07" prob="0.001" rotatemax="4"/>
-					<decoration type="block" blockname="tinMistParticle" prob="0.00015"/>
+					<!--<decoration type="block" blockname="tinMistParticle" prob="0.00015"/>-->
 					<decoration type="block" blockname="lootForestHelper" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="snowberry3Harvest" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="treeSnowyGrassDiagonal" prob="0.05" rotatemax="4"/>
@@ -352,7 +352,7 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="treeWinterPine03" prob="0.0015" rotatemax="4"/>
 				<decoration type="block" blockname="cntBirdnest" prob="0.0007"/>
 				<decoration type="block" blockname="cntTreeStump" prob="0.0005" rotatemax="4"/>
-				<decoration type="block" blockname="tinMistParticle" prob="0.00015"/>
+				<!--<decoration type="block" blockname="tinMistParticle" prob="0.00015"/>-->
 				<decoration type="block" blockname="rock05" prob="0.001" rotatemax="4"/>
 				<decoration type="block" blockname="rock06" prob="0.001" rotatemax="4"/>
 				<decoration type="block" blockname="rock07" prob="0.001" rotatemax="4"/>
@@ -383,8 +383,8 @@ If you do not declare them, the decorations of the main biome are used.
 			</weather>-->
 			
 			<weather prob="1">	
-				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="30" prob="1"/>
-				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="30" prob="1"/>
+				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="35" prob="1"/>
+				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="35" prob="1"/>
 			</weather>
 			<replacements> <!-- This affects only the grow event of blocks/plants. Grown blocks of one type are auto-replaced by the second.  -->
 			
@@ -1570,8 +1570,8 @@ If you do not declare them, the decorations of the main biome are used.
 			</weather>
 			<weather prob="1">	
 				
-				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="18" prob="1"/>
-				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="25" prob="1"/>
+				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="21" prob="1"/>
+				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="30" prob="1"/>
 				<ParticleEffect prefab="ParticleEffects/p_hotembers" ChunkMargin="7" prob="1"/>
 			</weather>
 			
@@ -1630,7 +1630,7 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="block" blockname="treePlainsTree" prob="0.008" rotatemax="4"/>
 					<decoration type="block" blockname="treePlainsGrassDiagonal" prob="0.008" rotatemax="4"/>
 					<decoration type="block" blockname="treeBrownGrassDiagonal" prob="0.008" rotatemax="4"/>
-					<decoration type="block" blockname="tinMistParticle" prob="0.00007"/>
+					<!--<decoration type="block" blockname="tinMistParticle" prob="0.00007"/>-->
 				</decorations>
 				
 			</subbiome>
@@ -1679,7 +1679,7 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="block" blockname="treePlainsTree" prob="0.008" rotatemax="4"/>
 					<decoration type="block" blockname="treePlainsGrassDiagonal" prob="0.008" rotatemax="4"/>
 					<decoration type="block" blockname="treeBrownGrassDiagonal" prob="0.008" rotatemax="4"/>
-					<decoration type="block" blockname="tinMistParticle" prob="0.00007"/>
+					<!--<decoration type="block" blockname="tinMistParticle" prob="0.00007"/>-->
 				</decorations>
 				
 			</subbiome>
@@ -1724,7 +1724,7 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="block" blockname="treePlainsTree" prob="0.008" rotatemax="4"/>
 					<decoration type="block" blockname="treePlainsGrassDiagonal" prob="0.008" rotatemax="4"/>
 					<decoration type="block" blockname="treeBrownGrassDiagonal" prob="0.008" rotatemax="4"/>
-					<decoration type="block" blockname="tinMistParticle" prob="0.00007"/>
+					<!--<decoration type="block" blockname="tinMistParticle" prob="0.00007"/>-->
 				</decorations>
 			
 			<subbiome prob="0.1"> <!-- Ore Sub Biome: potassiumNitrate -->
@@ -1790,7 +1790,7 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="treePlainsTree" prob="0.008" rotatemax="4"/>
 				<decoration type="block" blockname="treePlainsGrassDiagonal" prob="0.008" rotatemax="4"/>
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob="0.008" rotatemax="4"/>
-				<decoration type="block" blockname="tinMistParticle" prob="0.00015"/>
+				<!--<decoration type="block" blockname="tinMistParticle" prob="0.00015"/>-->
 			</decorations>
 			
 		</biome>
@@ -1809,9 +1809,9 @@ If you do not declare them, the decorations of the main biome are used.
 				<Temperature min="-28" max="-28" prob="0.75"/><CloudThickness min="0" max="15" prob="0.75"/><Fog min="0" max="0" prob="0.75"/><Precipitation min="0" max="0" prob="0.75"/><Wind min="0" max="5" prob="0.75"/>
 			</weather>
 			<weather prob="1">	
-				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="21" prob="1"/>
-				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="14" prob="1"/>
-				<ParticleEffect prefab="ParticleEffects/p_hotembers" ChunkMargin="1" prob="1"/>
+				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="27" prob="1"/>
+				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="21" prob="1"/>
+				<ParticleEffect prefab="ParticleEffects/p_hotembers" ChunkMargin="3" prob="1"/>
 			</weather>
 		
 			
@@ -1910,7 +1910,7 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="prefab" name="tinPlainsRockSm02" prob="0.00375" rotatemax="4"/>
 					<decoration type="prefab" name="tinPlainsRockSm03" prob="0.00375" rotatemax="4"/>
 					<decoration type="prefab" name="tinPlainsRockSm04" prob="0.00375" rotatemax="4"/>
-					<decoration type="block" blockname="tinMistParticle" prob="0.00033"/>
+					<!--<decoration type="block" blockname="tinMistParticle" prob="0.00033"/>-->
 					<decoration type="block" blockname="treeDeadShrub" prob="0.025" rotatemax="4"/>
 					<decoration type="block" blockname="treeDeadTree02" prob="0.006" rotatemax="4"/>
 					<decoration type="prefab" name="guppyCoal3" prob="0.00021" rotatemax="4"/>
@@ -1937,7 +1937,7 @@ If you do not declare them, the decorations of the main biome are used.
 				
 					<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>
 					<decoration type="prefab" name="guppyCoal" prob="0.0007" rotatemax="4"/>
-					<decoration type="block" blockname="tinMistParticle" prob="0.00033"/>
+					<!--<decoration type="block" blockname="tinMistParticle" prob="0.00033"/>-->
 					<decoration type="block" blockname="treeAzalea" prob="0.0002" rotatemax="4"/>
 					<decoration type="block" blockname="treeBirch10m" prob="0.01" rotatemax="4"/>
 					<decoration type="block" blockname="treeBirch12m" prob="0.01" rotatemax="4"/>
@@ -1978,7 +1978,7 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="prefab" name="tinPlainsRockSm04" prob="0.00375" rotatemax="4"/>
 					<decoration type="prefab" name="guppyCoal" prob="0.00035" rotatemax="4"/>
 					<decoration type="prefab" name="guppyCoalBig" prob="0.00035" rotatemax="4"/>
-					<decoration type="block" blockname="tinMistParticle" prob="0.00033" rotatemax="4"/>
+					<!--<decoration type="block" blockname="tinMistParticle" prob="0.00033" rotatemax="4"/>-->
 					<decoration type="block" blockname="treeDeadShrub" prob="0.002" rotatemax="4"/>
 					<decoration type="block" blockname="treeDeadTree01" prob="0.002" rotatemax="4"/>
 					<decoration type="block" blockname="treeDeadTree02" prob="0.002" rotatemax="4"/>
@@ -2046,7 +2046,7 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="rockResource" prob="0.0007" rotatemax="4"/>
 				<decoration type="block" blockname="rockResource02" prob="0.0007" rotatemax="4"/>
 				<decoration type="block" blockname="cntBirdnest" prob="0.0002"/>
-				<decoration type="block" blockname="tinMistParticle" prob="0.00033"/>
+				<!--<decoration type="block" blockname="tinMistParticle" prob="0.00033"/>-->
 				<decoration type="block" blockname="treeBirch10m" prob="0.0001" rotatemax="4"/>
 				<decoration type="block" blockname="treeBirch12m" prob="0.0001" rotatemax="4"/>
 				<decoration type="block" blockname="treeMaple6m" prob="0.0001" rotatemax="4"/>

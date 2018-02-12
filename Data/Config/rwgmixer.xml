@@ -54,9 +54,11 @@
 		<ruleset name="tinsRules" cell_cache_size="8" cell_size="2100" cell_offset="0" generation_distance="21000" terrain_generator="tinsWorldGen1" biome_generator="tinsBiomeGen2">
 			
 			<!--cell_rule: Name of Cell rules to use in the world. -->
-			<cell_rule name="deadCell" prob="0.5"/> <!-- Lower the prob="" value to increase hubs generated-->
+			<!-- Lower the prob="" value to increase hubs generated-->
+			<cell_rule name="deadCell" prob="0.5"/>			
 			<cell_rule name="settlementCell" prob="0.25"/>
 			<cell_rule name="RuinedCityCell" prob="0.25"/>
+			<!--<cell_rule name="TestCell" prob="1"/>-->
 			
 		</ruleset>
 		
@@ -107,6 +109,20 @@
 			<wilderness_rule name="The_Wilds"/>
 	
 		</cell_rule>
+		
+		<cell_rule name="TestCell">   	<!-- produces empty hubs just wilderness pois -->
+		
+			<cave_count value="1,8"/>
+			<path_material value="asphalt" />
+			<path_radius value="7" />
+
+			<hub_rule name="testHub" prob="1"/>
+
+			<wilderness_rule name="The_Wilds2"/>
+	
+		</cell_rule>
+		
+		
 		
 	</cell_rules>
 
@@ -290,31 +306,24 @@
 		
 			<hub_type value="rural"/>	<!-- Hub type *Not really used but can be useful to categorize -->
 			
-			<width value="1024, 1024" />	<!-- Self explanatory 440/880-->
-			<height value="1024, 1024" />   <!-- Self explanatory 440/880-->
+			<width value="824, 824" />	<!-- Self explanatory 440/880-->
+			<height value="180, 180" />   <!-- Self explanatory 440/880-->
 			
 			<path_material value="asphalt" /> <!-- Doing something like this will erase roads from being formed in hubs but still place Pois-->
 			<path_radius value="11" />	
 
-			<prefab_rule name="RuinedCity_Pois"/>  <!-- Prefab list the Hub will pull from -->
+			<prefab_rule name="CityHubPois"/>  <!-- Prefab list the Hub will pull from -->
 
 			<street_gen level="20" length_multiplier="3">	<!-- street_gen= How many time the rules will get run through. length_multiplier= Each street sections length. -->
 			
-				<axiom value="[-FFT][-FFT][-FFT]-FF[+FFT][-FFT][-FFT]"/>   <!-- Main rule used for streets before using the rules -->
+				<axiom value="[FFF.T.*.][-FFF.I.*.][+FFF.N.*.][--FFF.K.*.]"/>   <!-- Main rule used for streets before using the rules -->
 				
+				<rule char="T" replace_with="[FFFFFF.T.*.][-FFFFFF.I.*.][+FFFFFF.N.*.][--FFFFFF.K.*.]"/>
+				<rule char="I" replace_with="[FFFFFF.T.*.][-FFF.I.*.][+FFFFFF.N.*.][--FFF.K.*.]"/>
+				<rule char="N" replace_with="[FFF.T.*.][-FFFFFF.I.*.][+FFF.N.*.][--FFFFFF.K.*.]"/>
+				<rule char="K" replace_with="[FFF.T.*.][-FFF.I.*.][+FFF.N.*.][--FFF.K.*.]"/>
 				
-				
-				<rule char="T" replace_with="[+FFF*][-FFF*][-FFF*]-FFF[+FFF*][-FFF*][-FFF*]"/>
-				<rule char="I" replace_with="[-FF*][-FF*][-FF*]-FF[+FF*][-FF*][-FF*]"/>
-				<rule char="N" replace_with="[FF*][-FF*][+FF*][--FF*][+FF*][-FF*][++FF*]"/> 						
-				<rule char="A" replace_with="[-FFFI][-FFFI][-FFFI]-FFF[+FFFI][-FFFI][-FFFI]"/> 					
-				<rule char="B" replace_with="[FFFF*][-FFFF*][+FFFF*][--FFFF*][+FFFF*][-FFFF*][++FFFF*]"/>
-				<rule char="C" replace_with="[FF+FF*][-FF+FF*][+FF+FF*][--FF+FF*][+FF+FF*][-FF+FF*][++FF+FF*]"/>
-				<rule char="D" replace_with="[FF-FF*][-FF-FF*][+FF-FF*][--FF-FF*][+FF-FF*][-FF-FF*][++FF-FF*]"/>
-				<rule char="E" replace_with="[FFF+F*][-FFF+F*][+FFF+F*][--FFF+F*][+FFF+F*][-FFF+F*][++FFF+F*]"/>
-				<rule char="G" replace_with="[FFF-F*][-FFF-F*][+FFF-F*][--FFF-F*][+FFF-F*][-FFF-F*][++FFF-F*]"/>
-				
-				<alt_commands chars="T,I,N,A,B,C,D,E,G"/>
+				<alt_commands chars="T,I,N,K"/>
 				
 			</street_gen>
 			
@@ -412,6 +421,132 @@
 			<prefab rule="RuinedDowntownGroup"/>              					  
 			<prefab rule="RuinedIndustrialGroup"/>            					 
 			<prefab rule="detailFillerGroup"/>          					
+		</prefab_rule>
+		
+		<prefab_rule name="CityHubPois">	
+			<prefab rule="accentPois"/>	                					                                             																		
+			<prefab rule="CityResidentialOld"/>             					  <!-- prefab list to use with in "residentialOld" zones                                 -->
+			<prefab rule="CityResidentialNew"/>             					  <!-- prefab list to use in "residentialNew" zones                                      -->
+			<prefab rule="CityCommercial"/>  
+			<prefab rule="CityIndustrial"/>  
+			 
+		</prefab_rule>
+		
+		<prefab_rule name="CityResidentialOld">									  <!-- list of prefabs used for old Residential area in Hubs                             -->
+			<prefab rule="waterPois" max_count="1"/>
+			<prefab name="church_sm_01" max_count="1"/>
+			<prefab name="school_daycare_01" min_count="1" max_count="1"/>
+			<prefab name="apartment_adobe_red_5_flr" max_count="1" />
+			<prefab name="apartment_brick_6_flr" max_count="1" />
+			<prefab name="funeral_home_01" max_count="1" />
+			<prefab name="business_strip_old_01" max_count="1"/>
+			<prefab rule="skyscrapers" min_count="3" max_count="6" prob="50"/>
+			
+			<prefab name="business_red_brick_01" max_count="1"/>
+			<prefab name="business_red_brick_02" max_count="1"/>
+			<prefab name="business_red_brick_03" max_count="1"/>
+			<prefab name="business_red_brick_04" max_count="1"/>
+			<prefab name="business_red_brick_05" max_count="1"/>
+			<prefab name="business_red_brick_06" max_count="1"/>
+			<prefab name="business_red_brick_07" max_count="1"/>
+			<prefab name="business_tan_brick_01" max_count="1"/>
+			<prefab name="business_tan_brick_02" max_count="1"/>
+			<prefab name="business_tan_brick_03" max_count="1"/>
+			<prefab name="business_tan_brick_04" max_count="1"/>
+			<prefab name="business_tan_brick_05" max_count="1"/>
+			<prefab name="business_tan_brick_01" max_count="1"/>
+			<prefab name="business_tan_brick_02" max_count="1"/>
+			<prefab name="business_tan_brick_03" max_count="1"/>
+			<prefab name="business_tan_brick_04" max_count="1"/>
+			<prefab name="business_tan_brick_05" max_count="1"/>
+			<prefab name="carlot_01" max_count="1"/>
+			<prefab name="carlot_02" max_count="1"/>
+		</prefab_rule>
+		
+		<prefab_rule name="CityResidentialNew">									  <!-- list of prefabs used for old Residential area in Hubs                             -->
+			<prefab rule="waterPois" max_count="1"/>
+			<prefab name="school_k6_01" min_count="1" max_count="1"/>
+			<prefab name="apartment_adobe_red_5_flr" max_count="1" />
+			<prefab name="apartment_brick_6_flr" max_count="1" />
+			<prefab name="business_strip_old_02" max_count="1"/>
+			<prefab rule="skyscrapers" min_count="3" max_count="6" prob="50"/>
+			
+			<prefab name="business_red_brick_01" max_count="1"/>
+			<prefab name="business_red_brick_02" max_count="1"/>
+			<prefab name="business_red_brick_03" max_count="1"/>
+			<prefab name="business_red_brick_04" max_count="1"/>
+			<prefab name="business_red_brick_05" max_count="1"/>
+			<prefab name="business_red_brick_06" max_count="1"/>
+			<prefab name="business_red_brick_07" max_count="1"/>
+			<prefab name="business_tan_brick_01" max_count="1"/>
+			<prefab name="business_tan_brick_02" max_count="1"/>
+			<prefab name="business_tan_brick_03" max_count="1"/>
+			<prefab name="business_tan_brick_04" max_count="1"/>
+			<prefab name="business_tan_brick_05" max_count="1"/>
+			<prefab name="business_tan_brick_01" max_count="1"/>
+			<prefab name="business_tan_brick_02" max_count="1"/>
+			<prefab name="business_tan_brick_03" max_count="1"/>
+			<prefab name="business_tan_brick_04" max_count="1"/>
+			<prefab name="business_tan_brick_05" max_count="1"/>
+			<prefab name="carlot_01" max_count="1"/>
+			<prefab name="carlot_02" max_count="1"/>
+		</prefab_rule>
+		
+		<prefab_rule name="CityCommercial">									  <!-- list of prefabs used for old Residential area in Hubs                             -->
+			<prefab rule="traderGroup" min_count="1" max_count="1" prob="50"/>
+			<prefab rule="gasStationGroup" min_count="1" max_count="2" prob="50"/>
+			<prefab name="store_pharmacy_sm_01" max_count="1" prob="50"/>
+			<prefab name="store_book_sm_01" prob="0.75" max_count="1"/>
+			<prefab name="store_gun_sm_01" max_count="1" prob="0.5"/>
+			<prefab name="football_stadium"  max_count="1"/>
+			<prefab name="hospital_01_rg"  max_count="1"/>
+			<prefab name="school_01" min_count="1" max_count="1"/>
+			<prefab name="waste_rubble_bldg_01" max_count="1"/>
+			<prefab name="waste_rubble_bldg_02" max_count="1"/>
+			<prefab name="waste_rubble_bldg_03" max_count="1"/>
+			<prefab name="waste_rubble_bldg_04" max_count="1"/>
+			<prefab name="waste_rubble_bldg_05" max_count="1"/>
+			<prefab name="waste_rubble_bldg_06" max_count="1"/>
+			<prefab name="waste_rubble_bldg_07" max_count="1"/>
+			<prefab name="waste_rubble_bldg_08" max_count="1"/>
+			<prefab name="waste_rubble_bldg_09" max_count="1"/>
+			<prefab name="store_hardware_sm_01" max_count="1"/>
+			<prefab name="store_hardware_lg_01" prob="0.5" max_count="1"/>
+			<prefab name="store_grocery_sm_01" max_count="1"/>
+			<prefab name="store_bank_lg_01" max_count="1" prob="0.1"/>
+			<prefab name="diner_01" max_count="1"/>
+			<prefab name="diner_02" max_count="1"/>
+			<prefab name="fastfood_01" max_count="1"/>
+			<prefab name="fastfood_02" max_count="1"/>
+			<prefab name="fastfood_03" max_count="1"/>
+			<prefab name="store_autoparts_01" max_count="2"/>
+			<prefab name="store_laundry_01" max_count="1"/>
+			<prefab name="store_salon" max_count="1"/>
+		</prefab_rule>
+		
+		<prefab_rule name="CityIndustrial">									  <!-- list of prefabs used for old Residential area in Hubs                             -->
+			<prefab rule="traderGroup" min_count="1" max_count="1" prob="50"/> 					<!-- List of Prefabs used for Industrial zones in hubs -->
+			<prefab name="settlement_01" max_count="1"/>
+			<prefab name="factory_lg_01" max_count="2"/>
+			<prefab name="factory_lg_02" max_count="2"/>
+			<prefab name="junkyard_lg_01" max_count="1"/>
+			<prefab name="junkyard_med_01" max_count="1"/>
+			<prefab name="vacant_lot_med_01" prob="0.5" max_count="1"/>
+			<prefab name="vacant_lot_med_02" prob="0.5" max_count="1"/>
+			<prefab name="vacant_lot_sm_01" prob="0.5" max_count="1"/>
+			<prefab name="vacant_lot_sm_02" prob="0.5" max_count="1"/>
+			<prefab name="army_barracks_01" prob="0.5" max_count="1"/>
+			<prefab name="utility_celltower_02" max_count="1"/>
+			<prefab name="utility_celltower_01" max_count="1"/>
+			<prefab name="waste_rubble_bldg_01" max_count="2"/>
+			<prefab name="waste_rubble_bldg_02" max_count="2"/>
+			<prefab name="waste_rubble_bldg_03" max_count="2"/>
+			<prefab name="waste_rubble_bldg_04" max_count="2"/>
+			<prefab name="waste_rubble_bldg_05" max_count="2"/>
+			<prefab name="waste_rubble_bldg_06" max_count="2"/>
+			<prefab name="waste_rubble_bldg_07" max_count="2"/>
+			<prefab name="waste_rubble_bldg_08" max_count="2"/>
+			<prefab name="waste_rubble_bldg_09" max_count="2"/>
 		</prefab_rule>
 		
 		
@@ -640,6 +775,8 @@
 		<prefab_rule name="RuinedDowntownGroup">
 			<prefab name="police_station1" max_count="1" prob="50"/>
 			<prefab name="hospital_01_rg"  max_count="1" prob="50"/>
+			<prefab rule="skyscrapers" max_count="6" prob="50"/>
+			<prefab rule="skyscrapers" max_count="6"/>
 			<prefab name="business_red_brick_01" max_count="1"/>
 			<prefab name="business_red_brick_02" max_count="1"/>
 			<prefab name="business_red_brick_03" max_count="1"/>
@@ -683,7 +820,6 @@
 			<prefab name="bar_sm_01" max_count="1"/>
 			<prefab name="fire_station_01" max_count="1"/>
 			<prefab name="fire_station_02" max_count="1"/>
-			<prefab rule="skyscrapers" min_count="3"/>
 			<prefab name="store_pawn_01" max_count="1" />
 			
 		</prefab_rule>
@@ -903,24 +1039,7 @@
 				<property name="persistence" value="0.2"/>
 				<property name="power" value="10"/>
 			</module>
-			<module name="landAddative2" type="FastTurbulence">
-				<property name="sourceModule" value="landAddative"/>
-				<property name="frequency" value="0.25"/>
-				<property name="persistence" value="0.2"/>
-				<property name="power" value="10"/>
-			</module>
-			<module name="landAddative3" type="FastTurbulence">
-				<property name="sourceModule" value="landAddative2"/>
-				<property name="frequency" value="0.25"/>
-				<property name="persistence" value="0.2"/>
-				<property name="power" value="10"/>
-			</module>
-			<module name="landAddative4" type="FastTurbulence">
-				<property name="sourceModule" value="landAddative3"/>
-				<property name="frequency" value="0.25"/>
-				<property name="persistence" value="0.2"/>
-				<property name="power" value="10"/>
-			</module>
+			
 
 			<!-- Module block: Mountains -->
 			<module name="MntBase" type="FastBillow" no_seed="true">
@@ -968,17 +1087,17 @@
 			
 			<module name="Mnt" type="Blend" no_seed="true">
 				<property name="controlModule" value="Control"/>
-				<property name="sourceModule1" value="landAddative4"/>
+				<property name="sourceModule1" value="landAddative"/>
 				<property name="sourceModule2" value="mntClamp"/>
-				<property name="roughness" value="8"/>
+				<property name="roughness" value="5"/>
 				<property name="bounds" value="-1050,1050"/>
 			</module>
 			
 			<module name="Land_Mnt" type="Blend" no_seed="true">
 				<property name="controlModule" value="Control"/>
-				<property name="sourceModule1" value="landAddative4"/>
+				<property name="sourceModule1" value="landAddative"/>
 				<property name="sourceModule2" value="Mnt"/>
-				<property name="roughness" value="8"/>
+				<property name="roughness" value="5"/>
 				<property name="bounds" value="1050,2100"/>
 			</module>
 			
@@ -992,7 +1111,7 @@
 			
 			<module name="Final" type="Select" no_seed="true">
 				<property name="controlModule" value="Control"/>
-				<property name="sourceModule1" value="landAddative4"/>
+				<property name="sourceModule1" value="landAddative"/>
 				<property name="sourceModule2" value="Water_Land_Mnt"/>
 				<property name="roughness" value="8"/>
 				<property name="bounds" value="0,21000"/>

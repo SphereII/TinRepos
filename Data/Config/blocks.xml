@@ -5276,8 +5276,8 @@ kind of free
 	<property name="LootList" value="25"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	<drop event="Harvest" name="cloth" count="1" prob="0.3" tool_category="Disassemble"/>
-	<drop event="Harvest" name="feather" count="3" prob="0.35" tool_category="Disassemble"/>
-	<drop event="Harvest" name="feather" count="2" prob="0.6" tool_category="Disassemble"/>
+	<drop event="Harvest" name="feather" count="3" prob="0.5" tool_category="Disassemble"/>
+	<drop event="Harvest" name="feather" count="2" prob="0.65" tool_category="Disassemble"/>
 	<drop event="Destroy" name="yuccaFibers" count="2,8"/>
 </block>
 
@@ -5486,6 +5486,7 @@ kind of free
 	<property name="CanPlayersSpawnOn" value="false"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="1"/>
 </block>
 
@@ -5496,6 +5497,7 @@ kind of free
 	<property name="MultiBlockDim" value="1,10,1"/>
 	<property name="BigDecorationRadius" value="2"/>
 	<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="1"/>
 	<property name="ParticleOnDeath" value="treeGib_burnt"/>
 </block>
@@ -5508,6 +5510,7 @@ kind of free
 	<property name="MultiBlockDim" value="1,19,1"/>
 	<property name="BigDecorationRadius" value="2"/>
 	<drop event="Harvest" name="wood" count="70" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="2,4" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="1"/>
 	<property name="ParticleOnDeath" value="treeGib_burnt"/>
 </block>
@@ -5520,6 +5523,7 @@ kind of free
 	<property name="MultiBlockDim" value="1,24,1"/>
 	<property name="BigDecorationRadius" value="3"/>
 	<drop event="Harvest" name="wood" count="110" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="3,5" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_burnt_55m"/>
 </block>
@@ -5532,6 +5536,7 @@ kind of free
 	<property name="MultiBlockDim" value="1,27,1"/>
 	<property name="BigDecorationRadius" value="3"/>
 	<drop event="Harvest" name="wood" count="110" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="4,6" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_burnt_75m"/>
 </block>
@@ -5544,6 +5549,7 @@ kind of free
 	<property name="MultiBlockDim" value="1,28,1"/>
 	<property name="BigDecorationRadius" value="4"/>
 	<drop event="Harvest" name="wood" count="150" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="4,6" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_burnt_75m"/>
 </block>
@@ -5568,7 +5574,7 @@ kind of free
 	<property name="BigDecorationRadius" value="2"/>
 	<property name="ParticleOnDeath" value="treeGib_birch_small"/>
 	<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.5"/>
 </block>
 
 <block id="567" name="treeBirch12m">
@@ -5580,7 +5586,7 @@ kind of free
 	<property name="BigDecorationRadius" value="2"/>
 	<property name="ParticleOnDeath" value="treeGib_birch_small"/>
 	<drop event="Harvest" name="wood" count="70" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="2,4" tool_category="harvestingTools" prob="0.5"/>
 </block>
 
 <block id="568" name="treeBirch15m">
@@ -5592,7 +5598,7 @@ kind of free
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="ParticleOnDeath" value="treeGib_birch"/>
 	<drop event="Harvest" name="wood" count="110" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="3,5" tool_category="harvestingTools" prob="0.5"/>
 </block>
 
 <block id="569" name="treeDeadShrub">
@@ -5604,6 +5610,7 @@ kind of free
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Model" value="Entities/Trees/Haunted_Shrub_Wasteland2Prefab"/> <!-- uses dummy texture id from opaque atlas -->
 	<property name="ModelOffset" value="0,-0.15,0"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="wood" count="2,5" prob="1"/>
 </block>
 
@@ -5615,7 +5622,7 @@ kind of free
 	<property name="BigDecorationRadius" value="2"/>
 	<property name="ParticleOnDeath" value="treeGib_birch_6m"/>
 	<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="1"/>
 </block>
 
@@ -5628,7 +5635,7 @@ kind of free
 	<property name="BigDecorationRadius" value="2"/>
 	<property name="ParticleOnDeath" value="treeGib_birch_small"/>
 	<drop event="Harvest" name="wood" count="70" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="2,4" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="1"/>
 </block>
 
@@ -5648,7 +5655,7 @@ kind of free
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="ParticleOnDeath" value="treeGib_birch_15m"/>
 	<drop event="Harvest" name="wood" count="110" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="3,5" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="2"/>
 </block>
 
@@ -5661,7 +5668,7 @@ kind of free
 	<property name="BigDecorationRadius" value="4"/>
 	<property name="ParticleOnDeath" value="treeGib_birch"/>
 	<drop event="Harvest" name="wood" count="110" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="3,5" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="2"/>
 </block>
 
@@ -5674,7 +5681,7 @@ kind of free
 	<property name="BigDecorationRadius" value="4"/>
 	<property name="ParticleOnDeath" value="treeGib_birch"/>
 	<drop event="Harvest" name="wood" count="150" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,6" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="4,6" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="2"/>
 </block>
 
@@ -5763,6 +5770,7 @@ kind of free
 	<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
 	<property name="FallOver" value="true"/>
 	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="1"/>
 </block>
 
@@ -5774,6 +5782,7 @@ kind of free
 	<property name="MultiBlockDim" value="1,12,1"/>
 	<property name="BigDecorationRadius" value="2"/>
 	<drop event="Harvest" name="wood" count="70" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_winter01"/>
 </block>
@@ -5791,6 +5800,7 @@ kind of free
 	<property name="IsPlant" value="true"/> <!-- it shall never be placed on rocks -->
 	<property name="LootList" value="35"/>
 	<drop event="Harvest" name="wood" count="20,30" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="2,4" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" count="0"/>
 </block>
 
@@ -5802,6 +5812,7 @@ kind of free
 	<property name="MultiBlockDim" value="1,19,1"/>
 	<property name="BigDecorationRadius" value="2"/>
 	<drop event="Harvest" name="wood" count="110" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="3,5" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_winter02"/>
 </block>
@@ -5814,6 +5825,7 @@ kind of free
 	<property name="MultiBlockDim" value="1,28,1"/>
 	<property name="BigDecorationRadius" value="2"/>
 	<drop event="Harvest" name="wood" count="150" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="4,6" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_winter03"/>
 </block>
@@ -5821,6 +5833,7 @@ kind of free
 <block id="591" name="treeDesertShrub">
 	<property name="Extends" value="treeGrassMaster" param1="CustomIcon"/>
 	<property name="Texture" value="377"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 </block>
 
 <block id="592" name="cntBackpackDropped"> <!-- This is the blue backpack that the player will drop on death. It is an entity now. -->
@@ -6700,7 +6713,7 @@ kind of free
 	<property name="BigDecorationRadius" value="2"/>
 	<property name="PlantGrowing.Next" value="treePlantedMountainPine8m"/>
 	<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="1"/>
 </block>
 
@@ -6714,7 +6727,7 @@ kind of free
 	<property name="BigDecorationRadius" value="2"/>
 	<property name="PlantGrowing.Next" value="treePlantedMountainPine13m"/>
 	<drop event="Harvest" name="wood" count="70" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="2"/>
 </block>
 
@@ -6729,7 +6742,7 @@ kind of free
 	<property name="PlantGrowing.Next" value="treePlantedMountainPine16m"/>
 	<property name="PlantGrowing.FertileLevel" value="3"/>
 	<drop event="Harvest" name="wood" count="110" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="2,4" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_burnt_55m"/>
 </block>
@@ -6747,7 +6760,7 @@ kind of free
 	<property name="PlantGrowing.GrowthRate" value="1"/>
 	<property name="PlantGrowing.FertileLevel" value="5"/>
 	<drop event="Harvest" name="wood" count="150" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="3,5" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_burnt_55m"/>
 </block>
@@ -6758,7 +6771,7 @@ kind of free
 	<property name="CustomIcon" value="treeMountainPine20m"/>
 	<property name="PlantGrowing.FertileLevel" value="15"/>
 	<drop event="Harvest" name="wood" count="160" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,6" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="4,6" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_burnt_75m"/>
 </block>
@@ -6781,6 +6794,7 @@ kind of free
 	<property name="PlantGrowing.Next" value="treePlantedMaple13m"/>
 	<property name="ParticleOnDeath" value="treeGib_birch_6m"/>
 	<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="1"/>
 </block>
 
@@ -6795,6 +6809,7 @@ kind of free
 	<property name="PlantGrowing.Next" value="treePlantedMaple15m"/>
 	<property name="ParticleOnDeath" value="treeGib_maple_13m"/>
 	<drop event="Harvest" name="wood" count="70" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="2,4" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="2"/>
 </block>
 
@@ -6810,6 +6825,7 @@ kind of free
 	<property name="PlantGrowing.FertileLevel" value="3"/>
 	<property name="ParticleOnDeath" value="treeGib_maple_15m"/>
 	<drop event="Harvest" name="wood" count="110" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="3,5" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="2"/>
 </block>
 
@@ -6826,6 +6842,7 @@ kind of free
 	<property name="PlantGrowing.GrowthRate" value="1"/>
 	<property name="PlantGrowing.FertileLevel" value="5"/>
 	<drop event="Harvest" name="wood" count="150" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="3,5" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_maple_17m"/>
 </block>
@@ -7371,6 +7388,7 @@ kind of free
 	<property name="CustomIcon" value="treeMaple17m"/>
 	<property name="PlantGrowing.FertileLevel" value="15"/>
 	<drop event="Harvest" name="wood" count="160" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="3,5" tool_category="harvestingTools" prob="0.1"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="2"/>
 </block>
 
@@ -8103,8 +8121,8 @@ kind of free
 	<property name="Collide" value="melee"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ParticleOnDeath" value="treeGib_burnt"/> <!-- uses dummy texture id from opaque atlas -->
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
-	<drop event="Destroy" name="wood" count="1,5"/>
+	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.5"/>
+	<drop event="Destroy" name="wood" count="5"/>
 </block>
 
 <block id="817" name="bridgeAsphaltBlock">
@@ -8544,7 +8562,7 @@ kind of free
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="CanPlayersSpawnOn" value="false"/>
 	<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
-	<drop event="Harvest" name="feather" count="1,3" tool_category="harvestingTools" prob="0.2"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="1"/>
 </block>
 
@@ -12491,7 +12509,7 @@ kind of free
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Collide" value="melee"/>
 	<drop event="Destroy" name="wood" count="1,3" prob="1"/>
-	<drop event="Destroy" name="feather" count="1,3" prob="0.5"/>
+	<drop event="Destroy" name="feather" count="3" prob="0.5"/>
 	<!-- property name="FallOver" value="false" /-->
 	<property name="EconomicValue" value="20"/> <!-- disassemble value -->
 </block>
@@ -14057,6 +14075,7 @@ kind of free
 	<property name="BigDecorationRadius" value="2"/>
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine13m"/>
 	<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="1,2" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="1"/>
 </block>
 	<!-- 1 Free -->
@@ -14071,6 +14090,7 @@ kind of free
 	<property name="BigDecorationRadius" value="2"/>
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine16m"/>
 	<drop event="Harvest" name="wood" count="70" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="2,4" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 </block>
 
@@ -14085,6 +14105,7 @@ kind of free
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine19m"/>
 	<property name="PlantGrowing.FertileLevel" value="3"/>
 	<drop event="Harvest" name="wood" count="110" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="3,5" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 </block>
 
@@ -14101,6 +14122,7 @@ kind of free
 	<property name="PlantGrowing.GrowthRate" value="1"/>
 	<property name="PlantGrowing.FertileLevel" value="5"/>
 	<drop event="Harvest" name="wood" count="150" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="4,6" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 </block>
 	<!-- n Free -->
@@ -14357,6 +14379,7 @@ kind of free
 	<property name="CustomIcon" value="treeWinterPine03"/>
 	<property name="PlantGrowing.FertileLevel" value="15"/>
 	<drop event="Harvest" name="wood" count="160" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="feather" count="4,6" tool_category="harvestingTools" prob="0.5"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 </block>
 
@@ -15290,36 +15313,36 @@ kind of free
 	<!-- Junk -->
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="candyTin" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="candyTin" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="painkillers" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="painkillers" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="glassCTRSheet" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="shortMetalPipe" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="glue" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="ductTape" count="0,3" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="shortMetalPipe" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="glue" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="ductTape" count="0,3" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="mechanicalParts" count="0,3" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="scrapPlastics" count="0,3" prob="0.01" tool_category="Butcher"/>
 	
 	<!-- Accessories -->
-	<drop event="Harvest" name="aviatorGoggles" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="aviatorGoggles" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="tankTopWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="hoodedSweatshirtWhite" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="tankTopWhite" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="hoodedSweatshirtWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.1"/>
-	<drop event="Destroy" name="megaCrush" count="0,1" prob="0.05"/>
+	<drop event="Destroy" name="megaCrush" count="0,1" prob="0.1"/>
 </block>
 
 <block id="1988" name="ZedGoreCheerleader">
@@ -15336,26 +15359,26 @@ kind of free
 	<!-- Junk -->
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="trophy" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="trophy2" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="doorKnob" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="oil" count="0,6" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="glue" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="scrapPlastics" count="0,3" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="trophy" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="trophy2" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="doorKnob" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="oil" count="0,6" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="glue" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="scrapPlastics" count="0,3" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="runningShoes" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="runningShoes" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Coats -->
-	<drop event="Harvest" name="clothJacket" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="clothJacket" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="tshirtZUWhite" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtZUWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Skirts -->
-	<drop event="Harvest" name="skirt" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="skirtBlue" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="skirt" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="skirtBlue" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Food -->
 	<drop event="Harvest" name="blueberryPie" count="0,1" prob="0.1" tool_category="Butcher"/>
@@ -15364,12 +15387,12 @@ kind of free
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.1"/>
-	<drop event="Destroy" name="megaCrush" count="0,1" prob="0.05"/>
+	<drop event="Destroy" name="megaCrush" count="0,1" prob="0.1"/>
 </block>
 
 <block id="1989" name="ZedGoreOldTimer">
@@ -15386,44 +15409,44 @@ kind of free
 	<!-- Junk -->
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="ironArrowHead" count="0,12" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="steelArrowHead" count="0,10" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="ironArrowHead" count="0,12" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="steelArrowHead" count="0,10" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="gunPowder" count="0,3" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="fishingWeight" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="bulletCasing" count="0,10" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="fishingWeight" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bulletCasing" count="0,10" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="cowboyBootsBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="cowboyBootsBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="cowboyBootsBrown" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="cowboyBootsBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Coats -->
-	<drop event="Harvest" name="leatherDuster" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="leatherDusterBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="leatherDuster" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="leatherDusterBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Hats -->
-	<drop event="Harvest" name="cowboyHat" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="blackCowboyHat" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="cowboyHat" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="blackCowboyHat" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="shirt" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="shirtBrown" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirt" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirtBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Bandannas -->
-	<drop event="Harvest" name="bandana" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="bandanaBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="bandana" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bandanaBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Ammo -->
-	<drop event="Harvest" name="shotgunShell" count="0,10" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="shotgunSlug" count="0,10" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shotgunShell" count="0,10" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="shotgunSlug" count="0,10" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
@@ -15445,62 +15468,62 @@ kind of free
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="emptyJar" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="painkillers" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="painkillers" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="oldCash" count="0,6" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="gunPowder" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="oil" count="0,6" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="shortMetalPipe" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="casinoCoin" count="0,5" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="bulletCasing" count="0,10" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="gunPowder" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="oil" count="0,6" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="shortMetalPipe" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="casinoCoin" count="0,5" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bulletCasing" count="0,10" prob="0.1" tool_category="Butcher"/>
 	
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="gothBootsBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="gothBootsBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Accessories -->
-	<drop event="Harvest" name="shades" count="0,1" prob="0.5" tool_category="Butcher"/>
-	<drop event="Harvest" name="shadesBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
-	<drop event="Harvest" name="aviatorGoggles" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="shades" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="shadesBlack" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="aviatorGoggles" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Hats -->
-	<drop event="Harvest" name="swatHelmet" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="swatHelmet" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="shirt" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="shirtBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirt" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirtBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.025" tool_category="Butcher"/>
-	<drop event="Harvest" name="gothicPants" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="gothicPants" count="0,1" prob="0.025" tool_category="Butcher"/>
 	
 	<!-- Bandannas -->
-	<drop event="Harvest" name="bandana" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="bandanaBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="bandana" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bandanaBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- consumables -->
-	<drop event="Harvest" name="antibiotics" count="0,1" prob="0.025" tool_category="Butcher"/>
-	<drop event="Harvest" name="beer" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="antibiotics" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="beer" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="grainAlcohol" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_stephan" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_stephan" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
-	<drop event="Destroy" name="minibikeWheels" count="0,1" prob="0.025"/>
-	<drop event="Destroy" name="minibikeChassis" count="0,1" prob="0.025"/>
-	<drop event="Destroy" name="minibikeSeat" count="0,1" prob="0.025"/>
-	<drop event="Destroy" name="minibikeHandlebars" count="0,1" prob="0.025"/>
-	<drop event="Destroy" name="smallEngine" count="0,1" prob="0.01"/>
-	<drop event="Destroy" name="machete" count="0,1" prob="0.01"/>
-	<drop event="Destroy" name="clubSpiked" count="0,1" prob="0.01"/>
-	<drop event="Destroy" name="clubIron" count="0,1" prob="0.025"/>
+	<drop event="Destroy" name="minibikeWheels" count="0,1" prob="0.05"/>
+	<drop event="Destroy" name="minibikeChassis" count="0,1" prob="0.05"/>
+	<drop event="Destroy" name="minibikeSeat" count="0,1" prob="0.05"/>
+	<drop event="Destroy" name="minibikeHandlebars" count="0,1" prob="0.05"/>
+	<drop event="Destroy" name="smallEngine" count="0,1" prob="0.025"/>
+	<drop event="Destroy" name="machete" count="0,1" prob="0.025"/>
+	<drop event="Destroy" name="clubSpiked" count="0,1" prob="0.05"/>
+	<drop event="Destroy" name="clubIron" count="0,1" prob="0.1"/>
 </block>
 
 <block id="1991" name="ZedGoreFarmer">
@@ -15519,39 +15542,39 @@ kind of free
 	<drop event="Harvest" name="emptyJar" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="oldCash" count="0,6" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="candleStick" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="gunPowder" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="fishingWeight" count="0,3" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="candleStick" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="gunPowder" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="fishingWeight" count="0,3" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="cowboyBootsBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="cowboyBootsBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="cowboyBootsBrown" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="cowboyBootsBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Shirts -->
-	<drop event="Harvest" name="shirt" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="shirtRed" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirt" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirtRed" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="overalls" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="overalls" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Seeds -->
-	<drop event="Harvest" name="plantedPotato1" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="plantedCorn1" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="plantedAloe1" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="plantedPotato1" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="plantedCorn1" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="plantedAloe1" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Books -->
 	<drop event="Harvest" name="huntingRifleSchematic" count="0,1" prob="0.025" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
-	<drop event="Destroy" name="762mmBullet" count="0,10" prob="0.05"/>
-	<drop event="Destroy" name="shovelIron" count="0,1" prob="0.05"/>
-	<drop event="Destroy" name="hoeIron" count="0,1" prob="0.05"/>
+	<drop event="Destroy" name="762mmBullet" count="0,10" prob="0.1"/>
+	<drop event="Destroy" name="shovelIron" count="0,1" prob="0.1"/>
+	<drop event="Destroy" name="hoeIron" count="0,1" prob="0.1"/>
 	
 </block>
 
@@ -15567,39 +15590,39 @@ kind of free
 	<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	
 	<!-- Junk -->
-	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="candyTin" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="painkillers" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="oldCash" count="0,6" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="candleStick" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="doorKnob" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="oil" count="0,6" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="shortMetalPipe" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="casinoCoin" count="0,5" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="feather" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="femur" count="0,2" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="animalFat" count="0,2" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="candyTin" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="painkillers" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="oldCash" count="0,6" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="candleStick" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="doorKnob" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="oil" count="0,6" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="shortMetalPipe" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="casinoCoin" count="0,5" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="feather" count="0,3" prob="0.15" tool_category="Butcher"/>
 	
 	<!-- Accessories -->
-	<drop event="Harvest" name="facialPiercings" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="facialPiercings" count="0,15" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Press Caps -->
-	<drop event="Harvest" name="pressboyCapWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="pressboyCapWhite" count="0,15" prob="0.1" tool_category="Butcher"/>
 	
 	
 	<!-- Food -->
-	<drop event="Harvest" name="corn" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="blueberries" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodHoney" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="corn" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="blueberries" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodHoney" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
-	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Medical -->
-	<drop event="Harvest" name="firstAidBandage" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="grainAlcohol" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="herbalAntibiotics" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="firstAidBandage" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="grainAlcohol" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="herbalAntibiotics" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="antibiotics" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
@@ -16114,40 +16137,40 @@ kind of free
 	<drop event="Harvest" name="femur" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,3" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shortMetalPipe" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="scrapLead" count="0,10" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="ductTape" count="0,3" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="shortMetalPipe" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="scrapLead" count="0,10" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="ductTape" count="0,4" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="runningShoes" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="runningShoes" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="tankTopWhite" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="tankTopWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Food -->
 	<drop event="Harvest" name="canBeef" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canHam" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="bottledWater" count="0,2" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bottledWater" count="0,2" prob="0.15" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Quests -->
-	<drop event="Harvest" name="qc_dontfeedthebears" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_buythefarm" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_dontfeedthebears" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_buythefarm" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
-	<drop event="Destroy" name="wrench" count="0,1" prob="0.05"/>
-	<drop event="Destroy" name="shovelIron" count="0,1" prob="0.05"/>
-	<drop event="Destroy" name="sledgehammer" count="0,1" prob="0.025"/>
-	<drop event="Destroy" name="miningHelmet" count="0,1" prob="0.025"/>
+	<drop event="Destroy" name="wrench" count="0,1" prob="0.1"/>
+	<drop event="Destroy" name="shovelIron" count="0,1" prob="0.1"/>
+	<drop event="Destroy" name="sledgehammer" count="0,1" prob="0.05"/>
+	<drop event="Destroy" name="miningHelmet" count="0,1" prob="0.05"/>
 </block>
 
 <block id="2019" name="ZedGoreSoldier">
@@ -16165,57 +16188,55 @@ kind of free
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="gunPowder" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="bulletCasing" count="0,10" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="ductTape" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="militaryFiber" count="0,3" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="gunPowder" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bulletCasing" count="0,10" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="ductTape" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="militaryFiber" count="0,3" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Boots -->
-	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="militaryBoots" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="militaryBoots" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Coats -->
-	<drop event="Harvest" name="leatherDuster" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="militaryVest" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="leatherDuster" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="militaryVest" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Helmets -->
-	<drop event="Harvest" name="swatHelmet" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="militaryHelmet" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="swatHelmet" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="militaryHelmet" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Shirts -->
-	<drop event="Harvest" name="shirtBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="armyShirt" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirtBlack" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="armyShirt" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Gloves -->
-	<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="militaryGloves" count="0,1" prob="0.025" tool_category="Butcher"/>
-	
+	<drop event="Harvest" name="militaryGloves" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="armyPants" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="armyPants" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	
 	<!-- Leg Armor -->
-	<drop event="Harvest" name="militaryLegArmor" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="militaryLegArmor" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Books -->
-	<drop event="Harvest" name="huntingKnifeBook" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="huntingKnifeBook" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Ammo -->
-	<drop event="Harvest" name="9mmBullet" count="0,18" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="762mmBullet" count="0,10" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="9mmBullet" count="0,18" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="762mmBullet" count="0,10" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_claude" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_claude" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
-	<drop event="Destroy" name="nightvisionGoggles" count="0,1" prob="0.05"/>
+	<drop event="Destroy" name="nightvisionGoggles" count="0,1" prob="0.1"/>
 </block>
 	
 
@@ -16532,9 +16553,9 @@ kind of free
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="ironArrowHead" count="0,12" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="wood" count="0,4" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="glue" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="nail" count="0,10" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="wood" count="0,4" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="glue" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="nail" count="0,10" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
 	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.05" tool_category="Butcher"/>
@@ -16550,12 +16571,12 @@ kind of free
 	
 	<!-- Food -->
 	<drop event="Harvest" name="bottledWater" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="canTuna" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="canTuna" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
@@ -16576,37 +16597,37 @@ kind of free
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="wood" count="0,4" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="nail" count="0,10" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="wood" count="0,4" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="nail" count="0,10" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="casinoCoin" count="0,5" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
 	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Accessories -->
-	<drop event="Harvest" name="shades" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="shades" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="tshirtBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="tshirtBrown" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtBlack" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="brownDenimPants" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="brownDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Books -->
-	<drop event="Harvest" name="leatherJacketSchematic" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="leatherJacketSchematic" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_copanattitude" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_ladykiller" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_copanattitude" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_ladykiller" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_taylor" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_taylor" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
@@ -16626,40 +16647,40 @@ kind of free
 	<!-- Junk -->
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="trophy" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="trophy2" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="trophy" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="trophy2" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="runningShoes" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="runningShoes" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Hats -->
-	<drop event="Harvest" name="footballHelmet" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="footballHelmetZU" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="footballHelmet" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="footballHelmetZU" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
 	<drop event="Harvest" name="tshirtZUWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="redDenimPants" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="redDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
 	
 	<!-- Medical -->
-	<drop event="Harvest" name="painkillers" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="painkillers" count="1,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="bandage" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="vitamins" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="vitamins" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="splint" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="antibiotics" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="antibiotics" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_stephan" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_stephan" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
-	<drop event="Destroy" name="megaCrush" count="1" prob="0.05"/>
+	<drop event="Destroy" name="megaCrush" count="1" prob="0.1"/>
 </block>
 
 <block id="2037" name="ZedGoreGenericFatties">
@@ -16676,44 +16697,44 @@ kind of free
 	<!-- Junk -->
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="candyTin" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="emptyJar" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="candyTin" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="emptyJar" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="fishingWeight" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="feather" count="0,3" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="fishingWeight" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="feather" count="0,6" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="cowboyBootsBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="cowboyBootsBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="cowboyBootsBrown" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="cowboyBootsBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Food -->
-	<drop event="Harvest" name="bottledWater" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodHoney" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="bottledWater" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodHoney" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canCatfood" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canDogfood" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="canTuna" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="canTuna" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_maneater" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_killthewabbit" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_thatlldopig" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_dontfeedthebears" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_buythefarm" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_maneater" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_killthewabbit" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_thatlldopig" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_dontfeedthebears" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_buythefarm" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_nickole" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_nickole" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
-	<drop event="Destroy" name="potato" count="0,1" prob="0.05"/>
-	<drop event="Destroy" name="corn" count="0,1" prob="0.05"/>
-	<drop event="Destroy" name="blueberryPie" count="0,1" prob="0.05"/>
-	<drop event="Destroy" name="hoeIron" count="0,1" prob="0.025"/>
+	<drop event="Destroy" name="potato" count="0,1" prob="0.1"/>
+	<drop event="Destroy" name="corn" count="0,1" prob="0.1"/>
+	<drop event="Destroy" name="blueberryPie" count="0,1" prob="0.1"/>
+	<drop event="Destroy" name="hoeIron" count="0,1" prob="0.05"/>
 	<drop event="Destroy" name="beer" count="0,1" prob="0.05"/>
 </block>
 
@@ -16731,46 +16752,46 @@ kind of free
 	<!-- Junk -->
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="ironArrowHead" count="0,12" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="ironArrowHead" count="0,12" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="wood" count="0,4" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="glue" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="nail" count="0,10" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="wood" count="0,4" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="glue" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="nail" count="0,10" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Coats -->
 	<drop event="Harvest" name="leatherDuster" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="leatherDusterBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="leatherDusterBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="tshirtBrown" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Bandannas -->
-	<drop event="Harvest" name="bandana" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="bandanaBrown" count="0,1" prob="0.025" tool_category="Butcher"/>
-	<drop event="Harvest" name="bandanaRed" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="bandana" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bandanaBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="bandanaRed" count="0,1" prob="0.025" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Books -->
-	<drop event="Harvest" name="huntingKnifeBook" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="huntingKnifeBook" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_silenceofthelambs" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_dogdaysareover" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_silenceofthelambs" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_dogdaysareover" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_claude" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_claude" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
@@ -16791,41 +16812,41 @@ kind of free
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="emptyJar" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="painkillers" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="gunPowder" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="wood" count="0,4" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="glue" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="nail" count="0,10" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="ductTape" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="scrapPlastics" count="0,3" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="painkillers" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="gunPowder" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="wood" count="0,4" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="glue" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="nail" count="0,10" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="ductTape" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="scrapPlastics" count="0,3" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Coats -->
-	<drop event="Harvest" name="leatherDuster" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="leatherDusterBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="leatherDuster" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="leatherDusterBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- TankTop Shirts -->
-	<drop event="Harvest" name="tankTopBlue" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="tankTopWhite" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="tankTopBlue" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="tankTopWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Books -->
-	<drop event="Harvest" name="leatherBootsSchematic" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="leatherBootsSchematic" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_yournothingspecial" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_thatlldopig" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_yournothingspecial" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_thatlldopig" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_raphael" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_raphael" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed-->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
@@ -16846,39 +16867,39 @@ kind of free
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="emptyJar" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="painkillers" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="paper" count="0,6" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="cloth" count="0,4" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="candleStick" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="glue" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="scrapPlastics" count="0,3" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="painkillers" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="paper" count="0,6" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="cloth" count="0,4" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="candleStick" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="glue" count="0,1" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="scrapPlastics" count="0,3" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="tshirtBrown" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Skirts -->
-	<drop event="Harvest" name="skirt" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="skirtBrown" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="skirt" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="skirtBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Food -->
-	<drop event="Harvest" name="bottledWater" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bottledWater" count="0,1" prob="0.15" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_silenceofthelambs" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_itsbitsyspider" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_killthewabbit" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_silenceofthelambs" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_itsbitsyspider" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_killthewabbit" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_jennifer" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_jennifer" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
@@ -16898,34 +16919,34 @@ kind of free
 	<!-- Junk -->
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="ironArrowHead" count="0,12" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="steelArrowHead" count="0,10" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="ironArrowHead" count="0,12" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="steelArrowHead" count="0,10" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shortMetalPipe" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="shortMetalPipe" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="wood" count="0,4" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="feather" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="ductTape" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="feather" count="0,3" prob="0.15" tool_category="Butcher"/>
+	<drop event="Harvest" name="ductTape" count="0,3" prob="0.15" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Skirts -->
-	<drop event="Harvest" name="skirt" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="skirt" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Books -->
-	<drop event="Harvest" name="crossbowSchematic" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="crossbowSchematic" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_yournothingspecial" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_killthewabbit" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_yournothingspecial" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_killthewabbit" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_sarah" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_sarah" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
 </block>
@@ -16945,36 +16966,36 @@ kind of free
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="emptyJar" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="glassCTRSheet" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="fishingWeight" count="0,3" prob="0.025" tool_category="Butcher"/>
-	<drop event="Harvest" name="bulletCasing" count="0,10" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="glassCTRSheet" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="fishingWeight" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bulletCasing" count="0,10" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Food -->
-	<drop event="Harvest" name="bottledWater" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bottledWater" count="0,1" prob="0.15" tool_category="Butcher"/>
 	
 	<!-- Long Shirts -->
-	<drop event="Harvest" name="shirtBlue" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="shirtBrown" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirtBlue" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirtBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="brownDenimPants" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="brownDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Books -->
-	<drop event="Harvest" name="scrapGlovesSchematic" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="scrapGlovesSchematic" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_thatlldopig" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_buythefarm" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_thatlldopig" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_buythefarm" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_nickole" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_nickole" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
@@ -16995,33 +17016,33 @@ kind of free
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="oldCash" count="0,6" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="casinoCoin" count="0,5" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="oldCash" count="0,6" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="casinoCoin" count="0,5" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- TankTop Shirts -->
-	<drop event="Harvest" name="tankTopBlue" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="tankTopWhite" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="tankTopBlue" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="tankTopWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Shorts -->
-	<drop event="Harvest" name="denimShortsPantsBlue" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="denimShortsPantsBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimShortsPantsBlue" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimShortsPantsBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Food -->
-	<drop event="Harvest" name="bottledWater" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="bottledWater" count="0,1" prob="0.15" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Books -->
-	<drop event="Harvest" name="leatherGlovesSchematic" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="leatherGlovesSchematic" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_yournothingspecial" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_yournothingspecial" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_jennifer" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_jennifer" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
@@ -17041,48 +17062,48 @@ kind of free
 	<!-- Junk -->
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="painkillers" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="paper" count="0,6" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="painkillers" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="paper" count="0,6" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="oldCash" count="0,6" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="casinoCoin" count="0,5" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="casinoCoin" count="0,5" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="dressShoesBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="dressShoesBlack" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Accessories -->
-	<drop event="Harvest" name="shades" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="shadesBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shades" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="shadesBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Coats -->
-	<drop event="Harvest" name="suitJacketBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="suitJacketBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="suitPantsBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="suitPantsBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Food -->
-	<drop event="Harvest" name="canLamb" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="canMiso" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="bottledWater" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="canLamb" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="canMiso" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bottledWater" count="0,1" prob="0.15" tool_category="Butcher"/>
 	
 	
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Books -->
-	<drop event="Harvest" name="pistolBook" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="pistolBook" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_silenceofthelambs" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_ladykiller" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_silenceofthelambs" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_ladykiller" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_raphael" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_raphael" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
 </block>
@@ -17101,65 +17122,65 @@ kind of free
 	<!-- Junk -->
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="ironArrowHead" count="0,12" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="steelArrowHead" count="0,10" prob="0.025" tool_category="Butcher"/>
-	<drop event="Harvest" name="candleStick" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="ironArrowHead" count="0,12" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="steelArrowHead" count="0,10" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="candleStick" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="wood" count="0,10" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="glue" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="nail" count="0,10" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="feather" count="0,3" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="nail" count="0,10" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="feather" count="0,3" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="ductTape" count="0,3" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Accessories -->
-	<drop event="Harvest" name="aviatorGoggles" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="aviatorGoggles" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Coats -->
-	<drop event="Harvest" name="pufferCoat" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="pufferCoatBrown" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="pufferCoat" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="pufferCoatBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Skull Caps -->
-	<drop event="Harvest" name="skullCap" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="skullCapBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="skullCap" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="skullCapBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Flannel Shirts -->
-	<drop event="Harvest" name="flannelShirtBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="flannelShirtRed" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="flannelShirtBrown" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="flannelShirtRed" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Sweatshirt -->
-	<drop event="Harvest" name="sweatshirt" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="sweatshirtBrown" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="sweatshirt" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="sweatshirtBrown" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="brownDenimPants" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="denimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="brownDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Food -->
-	<drop event="Harvest" name="rawMeat" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="blueberries" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodHoney" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="rawMeat" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="blueberries" count="0,5" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodHoney" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Books -->
-	<drop event="Harvest" name="huntingRifleSchematic" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="huntingRifleSchematic" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_drunkanddisorderly" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_imalumberjackandimokay" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_drunkanddisorderly" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_imalumberjackandimokay" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Treasure -->
-	<drop event="Harvest" name="qt_taylor" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qt_taylor" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
-	<drop event="Destroy" name="stoneAxe" count="0,1" prob="0.05"/>
-	<drop event="Destroy" name="fireaxeIron" count="0,1" prob="0.025"/>
+	<drop event="Destroy" name="stoneAxe" count="0,1" prob="0.1"/>
+	<drop event="Destroy" name="fireaxeIron" count="0,1" prob="0.05"/>
 </block>
 
 <block id="2046" name="ZedGoreNurse">
@@ -17179,10 +17200,10 @@ kind of free
 	<drop event="Harvest" name="candyTin" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="emptyJar" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="oldCash" count="0,6" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="cloth" count="0,4" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="glue" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="ductTape" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="scrapPlastics" count="0,3" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="cloth" count="0,4" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="glue" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="ductTape" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="scrapPlastics" count="0,3" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Medical -->
 	<drop event="Harvest" name="bandage" count="0,2" prob="0.1" tool_category="Butcher"/>
@@ -17191,28 +17212,28 @@ kind of free
 	<drop event="Harvest" name="grainAlcohol" count="0,1" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="bloodBag" count="0,6" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="painkillers" count="0,4" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="firstAidBandage" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="bloodDrawKit" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="firstAidKit" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="antibiotics" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="firstAidKitSchematic" count="0,3" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="firstAidBandage" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bloodDrawKit" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="firstAidKit" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="antibiotics" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="firstAidKitSchematic" count="0,3" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="shirt" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirt" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="tshirtWhite" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Skirts -->
 	<drop event="Harvest" name="skirt" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Bandannas -->
-	<drop event="Harvest" name="bandana" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="bandana" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_nurseyoubacktohealth" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_nurseyoubacktohealth" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
@@ -17233,46 +17254,46 @@ kind of free
 	<drop event="Harvest" name="femur" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="0,2" prob="0.1" tool_category="Butcher"/>
 	<drop event="Harvest" name="emptyJar" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="gunPowder" count="0,3" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="scrapLead" count="0,10" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="bulletCasing" count="0,10" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="canEmpty" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="gunPowder" count="0,3" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="scrapLead" count="0,10" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="bulletCasing" count="0,10" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Shoes -->
-	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="cowboyBootsBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="wornBoots" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="cowboyBootsBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Accessories -->
-	<drop event="Harvest" name="shades" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="shadesBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shades" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="shadesBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Coats -->
-	<drop event="Harvest" name="leatherDuster" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="leatherDusterBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="leatherDuster" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="leatherDusterBlack" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- T Shirts -->
-	<drop event="Harvest" name="shirt" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="shirtBlue" count="0,1" prob="0.02" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirt" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="shirtBlue" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Pants -->
-	<drop event="Harvest" name="brownDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.02" tool_category="Butcher"/>
+	<drop event="Harvest" name="brownDenimPants" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Rotten Food -->
 	<drop event="Harvest" name="rottingFlesh" count="0,1" prob="0.1" tool_category="Butcher"/>
-	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.05" tool_category="Butcher"/>
-	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="shamSandwich" count="0,1" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="moldyBread" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Books -->
-	<drop event="Harvest" name="pistolBook" count="0,1" prob="0.025" tool_category="Butcher"/>
+	<drop event="Harvest" name="pistolBook" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Quest challenges -->
-	<drop event="Harvest" name="qc_silenceofthelambs" count="0,1" prob="0.01" tool_category="Butcher"/>
-	<drop event="Harvest" name="qc_drunkanddisorderly" count="0,1" prob="0.01" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_silenceofthelambs" count="0,1" prob="0.05" tool_category="Butcher"/>
+	<drop event="Harvest" name="qc_drunkanddisorderly" count="0,1" prob="0.05" tool_category="Butcher"/>
 	
 	<!-- Destroyed -->
 	<drop event="Destroy" name="femur" count="0,1" prob="0.25"/>
-	<drop event="Destroy" name="9mmBullet" count="0,18" prob="0.05"/>
+	<drop event="Destroy" name="9mmBullet" count="0,18" prob="0.1"/>
 </block>
 
 </blocks><!-- Block limit: No block can have an ID greater 2047. -->
