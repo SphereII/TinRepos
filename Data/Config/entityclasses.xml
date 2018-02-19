@@ -163,7 +163,7 @@
 		<property name="state0" value="Death"/>
 	</property>
 	
-	<property name="MaxHealth" value="150"/>
+	<property name="MaxHealth" value="350"/>
 	<property name="MaxViewAngle" value="270"/>
 	<property name="HandItem" value="handZombie"/>
 	<property name="Weight" value="70"/>
@@ -240,7 +240,7 @@
 	<property name="UpperArmDismemberBonusChance" value="0.9"/>
 	<property name="LegCrawlerThreshold" value="0"/> <!-- at like .175 nearly every zombie knocked down from a leg hit turns into a crawler -->
 	<property name="LegCrippleThreshold" value="0.01"/>
-	<property name="KnockdownProneDamageThreshold" value="0.5"/>
+	<property name="KnockdownProneDamageThreshold" value="0.99"/>
 	<property name="KnockdownProneStunDuration" value="4,6"/>
 	<property name="KnockdownProneRefillRate" value="0.045,0.045"/>
 	<property name="KnockdownKneelDamageThreshold" value="0.4"/>
@@ -268,7 +268,6 @@
 	<property name="CorpseBlock" value="ZedGoreBoe"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="ExperienceGain" value="1039"/>
-	<property name="MaxHealth" value="200"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
@@ -286,7 +285,7 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="6"/>
 	<property name="CanClimbVertical" value="false"/>
-	<property name="MaxHealth" value="400"/>
+	<property name="MaxHealth" value="450"/>
 	<property name="HandItem" value="handZombieFootballPlayer"/>
 	<property name="WanderSpeed" value="0.05"/>
 	<property name="ApproachSpeed" value="0.45"/>
@@ -319,7 +318,7 @@
 	<property name="WalkType" value="1"/>
 	<property name="CanClimbVertical" value="false"/>
 	<property name="HandItem" value="handZombieStrong"/>
-	<property name="MaxHealth" value="300"/>
+	<property name="MaxHealth" value="400"/>
 	<property name="CorpseBlock" value="ZedGoreGenericFatties"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="ExperienceGain" value="1039"/>
@@ -363,7 +362,7 @@
 	<property name="WalkType" value="1"/>
 	<property name="CanClimbVertical" value="false"/>
 	<property name="HandItem" value="handZombieStrong"/>
-	<property name="MaxHealth" value="300"/>
+	<property name="MaxHealth" value="400"/>
 	<property name="ExperienceGain" value="1556"/>
 	<property name="Weight" value="70"/>
 	<property name="PushFactor" value="20"/>
@@ -393,7 +392,6 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="3"/>
 	<property name="HandItem" value="handZombie"/>
-	<property name="MaxHealth" value="100"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
@@ -420,7 +418,7 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="3"/>
 	<property name="HandItem" value="handZombie"/>
-	<property name="MaxHealth" value="100"/>
+	<property name="MaxHealth" value="400"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="CanClimbVertical" value="true"/>
 	<property name="RootMotion" value="true"/>
@@ -449,7 +447,6 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="3"/>
 	<property name="HandItem" value="handZombie"/>
-	<property name="MaxHealth" value="100"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
@@ -476,7 +473,6 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="8"/> <!-- default 5 -->
 	<property name="HandItem" value="handZombie"/>
-	<property name="MaxHealth" value="100"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
@@ -531,7 +527,7 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="2"/>
 	<property name="CanClimbVertical" value="false"/>
-	<property name="MaxHealth" value="450"/>
+	<property name="MaxHealth" value="400"/>
 	<property name="ExperienceGain" value="1556"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
@@ -567,7 +563,6 @@
 	<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
 	<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
 	<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
-	<property name="MaxHealth" value="150"/>
 	<property name="WanderSpeed" value="0.05"/>
 	<property name="ApproachSpeed" value="0.25"/>
 	<property name="NightWanderSpeed" value="0.05"/>
@@ -601,7 +596,7 @@
 	<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
 	<property name="HandItem" value="handZombieBurning"/>
 	<property name="HandItemCrawler" value="handZombieBurningCrawler"/> <!-- override the default replacement of handZombie02 with a specific hand item -->
-	<property name="MaxHealth" value="80"/>
+	<property name="MaxHealth" value="300"/>
 	<property name="ExperienceGain" value="798"/>
 	<property name="CorpseBlock" value="ZedGoreGenericZeds"/>
 	<property name="CorpseBlockChance" value="1"/>
@@ -660,7 +655,7 @@
 	<property name="PhysicsBody" value="zombieFat"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
-	<property name="MaxHealth" value="700"/>
+	<property name="MaxHealth" value="400"/>
 	<property name="ExperienceGain" value="2916"/>
 	<property name="CorpseBlock" value="ZedGoreGenericFatties"/>
 	<property name="CorpseBlockChance" value="1"/>
@@ -686,7 +681,7 @@
 	<property name="PhysicsBody" value="zombieFat"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
-	<property name="MaxHealth" value="700"/>
+	<property name="MaxHealth" value="450"/>
 	<property name="ExperienceGain" value="2916"/>
 	<property name="Weight" value="70"/>
 	<property name="PushFactor" value="20"/>
@@ -797,7 +792,7 @@
 	<property name="CanClimbVertical" value="false"/>
 	<property name="ApproachSpeed" value="0.15"/>
 	<property name="NightApproachSpeed" value="0.45"/>
-	<property name="MaxHealth" value="200"/>
+	<property name="MaxHealth" value="400"/>
 	<property name="ExperienceGain" value="1407"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
@@ -825,7 +820,7 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="2"/>
 	<property name="CanClimbVertical" value="false"/>
-	<property name="MaxHealth" value="500"/>
+	<property name="MaxHealth" value="450"/>
 	<property name="ExperienceGain" value="2509"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
@@ -837,7 +832,6 @@
 </entity_class>
 
 <entity_class name="zombieSkateboarderSLPR" extends="zombieTemplateSleepers">
-	<property name="MaxHealth" value="150"/>
 	<property name="ExperienceGain" value="679"/>
 	<property name="Mesh" value="Zombies/zombieStandardHoodieRagdoll"/>
 	<property name="SoundRandom" value="zombiemaleroam"/>
@@ -868,7 +862,6 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="3"/>
 	<property name="HandItem" value="handZombie"/>
-	<property name="MaxHealth" value="120"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="CanClimbVertical" value="true"/>
 	<property name="RootMotion" value="true"/>
@@ -894,7 +887,7 @@
 	<property name="AttackTimeoutDay" value="1.2"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.2"/>
 	<property name="HandItem" value="handZombieStrong"/>
-	<property name="MaxHealth" value="600"/>
+	<property name="MaxHealth" value="450"/>
 	<property name="ExperienceGain" value="2091"/>
 	<!--<property name="LootListOnDeath" value="83"/>-->
 	<property name="WalkType" value="7"/>
@@ -908,7 +901,6 @@
 <entity_class name="zombieFarmerSLPR" extends="zombieTemplateSleepers">
 	<property name="Mesh" value="Zombies/zombieStandardFarmerRagdoll"/>
 	<property name="HandItem" value="handZombieStrong"/>
-	<property name="MaxHealth" value="300"/>
 	<property name="ExperienceGain" value="1039"/>
 	<!--<property name="LootListOnDeath" value="85"/>-->
 	<property name="WalkType" value="6"/>
@@ -928,7 +920,6 @@
 	<property name="HandItem" value="handZombieStripper"/>
 	<property name="ApproachSpeed" value="0.2"/>
 	<property name="NightApproachSpeed" value="0.45"/>
-	<property name="MaxHealth" value="250"/>
 	<property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam"/>
 	<property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert"/>
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack"/>
@@ -1385,7 +1376,7 @@
 		<property name="state0" value="Death"/>
 	</property>
 	
-	<property name="MaxHealth" value="225"/>
+	<property name="MaxHealth" value="350"/>
 	<property name="MaxViewAngle" value="270"/>
 	<property name="HandItem" value="handZombie"/>
 	<property name="Weight" value="70"/>
@@ -1436,7 +1427,7 @@
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 	<property name="SoundSleeperSense" value="sleepersense"/>
 	<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
-	<property name="TimeStayAfterDeath" value="5"/>
+	<property name="TimeStayAfterDeath" value="2"/>
 	<!--<property name="LootListOnDeath" value="15"/>-->
 
 	<property name="CorpseBlock" value="ZedGoreGenericZeds"/>
@@ -1462,7 +1453,7 @@
 	<property name="UpperArmDismemberBonusChance" value="0.9"/>
 	<property name="LegCrawlerThreshold" value="0"/> <!-- at like .175 nearly every zombie knocked down from a leg hit turns into a crawler -->
 	<property name="LegCrippleThreshold" value="0.01"/>
-	<property name="KnockdownProneDamageThreshold" value="0.5"/>
+	<property name="KnockdownProneDamageThreshold" value="0.99"/>
 	<property name="KnockdownProneStunDuration" value="4,6"/>
 	<property name="KnockdownProneRefillRate" value="0.045,0.045"/>
 	<property name="KnockdownKneelDamageThreshold" value="0.4"/>
@@ -1501,7 +1492,7 @@
 	<property name="WalkType" value="6"/>
 	<property name="AttackTimeoutDay" value="1.25"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.25"/>
-	<property name="MaxHealth" value="400"/>
+	<property name="MaxHealth" value="450"/>
 	<property name="HandItem" value="handZombieFootballPlayer"/>
 	<property name="WanderSpeed" value="0.05"/>
 	<property name="ApproachSpeed" value="0.45"/>
@@ -1529,7 +1520,7 @@
 	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
 	<property name="WalkType" value="1"/>
 	<property name="HandItem" value="handZombieStrong"/>
-	<property name="MaxHealth" value="250"/>
+	<property name="MaxHealth" value="400"/>
 	<property name="ExperienceGain" value="1039"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="PhysicsBody" value="zombieFat"/>
@@ -1561,7 +1552,6 @@
 	<property name="Mesh" value="Zombies/zombieStandardMoeRagdoll"/>
 	<property name="WalkType" value="1"/>
 	<property name="HandItem" value="handZombieStrong"/>
-	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="1556"/>
 	<property name="Weight" value="70"/>
 	<property name="PushFactor" value="20"/>
@@ -1788,7 +1778,7 @@
 	<property name="WalkType" value="7"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="PhysicsBody" value="zombieFat"/>
-	<property name="MaxHealth" value="250"/>
+	<property name="MaxHealth" value="400"/>
 	<property name="ExperienceGain" value="2916"/>
 	<!--<property name="LootListOnDeath" value="38"/>-->
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/Z_eye1"/>
@@ -1813,7 +1803,7 @@
 	<property name="PhysicsBody" value="zombieFat"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
-	<property name="MaxHealth" value="700"/>
+	<property name="MaxHealth" value="450"/>
 	<property name="ExperienceGain" value="2916"/>
 	<property name="Weight" value="70"/>
 	<property name="PushFactor" value="20"/>
@@ -1895,6 +1885,7 @@
 
 <entity_class name="zombieMaleHazmatLDR" extends="zombieTemplateLeaders">
 	<property name="Mesh" value="Zombies/zombieStandardHazmatRagdoll"/>
+	<property name="MaxHealth" value="400"/>
 	<property name="HandItem" value="handZombieHazMat"/>
 	<property name="ExperienceGain" value="1039"/>
 	<!--<property name="LootListOnDeath" value="65"/>-->
@@ -1933,7 +1924,7 @@
 	<property name="WalkType" value="2"/>
 	<property name="AttackTimeoutDay" value="1.2"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.2"/>
-	<property name="MaxHealth" value="250"/>
+	<property name="MaxHealth" value="500"/>
 	<property name="ExperienceGain" value="2509"/>
 	<property name="HandItem" value="handZombieWorker"/>
 	<!--<property name="LootListOnDeath" value="73"/>-->
@@ -1994,7 +1985,7 @@
 	<property name="AttackTimeoutNight" value="1.3"/>
 	
 	<property name="HandItem" value="handZombieStrong"/>
-	<property name="MaxHealth" value="600"/>
+	<property name="MaxHealth" value="450"/>
 	<property name="ExperienceGain" value="2091"/>
 	<!--<property name="LootListOnDeath" value="83"/>-->
 	<property name="WalkType" value="7"/>
@@ -2461,7 +2452,7 @@
 		<property name="state0" value="Death"/>
 	</property>
 	
-	<property name="MaxHealth" value="150"/>
+	<property name="MaxHealth" value="300"/>
 	<property name="MaxViewAngle" value="270"/>
 	<property name="HandItem" value="handZombie"/>
 	<property name="Weight" value="70"/>
@@ -2538,7 +2529,7 @@
 	<property name="UpperArmDismemberBonusChance" value="0.9"/>
 	<property name="LegCrawlerThreshold" value="0"/> <!-- at like .175 nearly every zombie knocked down from a leg hit turns into a crawler -->
 	<property name="LegCrippleThreshold" value="0.01"/>
-	<property name="KnockdownProneDamageThreshold" value="0.5"/>
+	<property name="KnockdownProneDamageThreshold" value="0.99"/>
 	<property name="KnockdownProneStunDuration" value="4,6"/>
 	<property name="KnockdownProneRefillRate" value="0.045,0.045"/>
 	<property name="KnockdownKneelDamageThreshold" value="0.4"/>
@@ -2561,7 +2552,7 @@
 	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
 	<property name="WalkType" value="2"/>
 	<property name="ExperienceGain" value="1039"/>
-	<property name="MaxHealth" value="150"/>
+	<property name="MaxHealth" value="350"/>
 	<property name="CorpseBlock" value="ZedGoreBoe"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
@@ -2581,7 +2572,7 @@
 	<property name="SoundSense" value="Enemies/Base_Zombie_Female2/zombiefemale2sense"/>
 	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
 	<property name="WalkType" value="1"/>
-	<property name="MaxHealth" value="150"/>
+	<property name="MaxHealth" value="350"/>
 	<property name="ExperienceGain" value="1039"/>
 	<property name="PhysicsBody" value="zombieFat"/>
 	<!--<property name="LootListOnDeath" value="85"/>-->
@@ -2611,7 +2602,6 @@
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack"/>
 	<property name="Mesh" value="Zombies/zombieStandardMoeRagdoll"/>
 	<property name="WalkType" value="1"/>
-	<property name="MaxHealth" value="150"/>
 	<property name="ExperienceGain" value="1556"/>
 	<!--<property name="LootListOnDeath" value="38"/>-->
 	<property name="TintMaterial2" value="41,38,34"/>
@@ -2633,7 +2623,6 @@
 	<property name="AttackTimeoutNight" value="1.4"/>
 	<property name="ApproachSpeed" value="0.06"/>
 	<property name="NightApproachSpeed" value="0.06"/>
-	<property name="MaxHealth" value="125"/>
 	<!--<property name="LootListOnDeath" value="38"/>-->
 	<property name="TintMaterial1" value="56,50,40"/>
 	<property name="CorpseBlock" value="ZedGoreArlene"/>
@@ -2654,7 +2643,6 @@
 	<property name="AttackTimeoutNight" value="1.4"/>
 	<property name="ApproachSpeed" value="0.06"/>
 	<property name="NightApproachSpeed" value="0.06"/>
-	<property name="MaxHealth" value="125"/>
 	<!--<property name="LootListOnDeath" value="38"/>-->
 	<property name="TintMaterial2" value="32,24,20"/>
 	<property name="CorpseBlock" value="ZedGoreDarlene"/>
@@ -2673,7 +2661,6 @@
 	<property name="WalkType" value="5"/>
 	<property name="AttackTimeoutDay" value="1.4"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.4"/>
-	<property name="MaxHealth" value="125"/>
 	<!--<property name="LootListOnDeath" value="38"/>-->
 	<property name="TintMaterial2" value="41,25,25"/>
 	<property name="CorpseBlock" value="ZedGoreMarlene"/>
@@ -2704,7 +2691,6 @@
 <entity_class name="zombieSteveCrawlerFOD" extends="zombieTemplateFodder">
 	<property name="Mesh" value="Zombies/zombieStandardSteveRagdoll"/>
 	<property name="HandItem" value="handZombie02"/>
-	<property name="MaxHealth" value="125"/>
 	<property name="Class" value="EntityZombieCrawl"/>
 	<property name="WalkType" value="4"/>
 	<property name="RotateToGround" value="true"/>
@@ -2737,7 +2723,7 @@
 	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
 	<property name="WalkType" value="7"/>
 	<property name="PhysicsBody" value="zombieFat"/>
-	<property name="MaxHealth" value="150"/>
+	<property name="MaxHealth" value="350"/>
 	<property name="ExperienceGain" value="2916"/>
 	<!--<property name="LootListOnDeath" value="38"/>-->
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/Z_eye1"/>
@@ -2757,7 +2743,6 @@
 	<property name="WalkType" value="6"/>
 	<property name="ApproachSpeed" value="0.07"/>
 	<property name="NightApproachSpeed" value="0.07"/>
-	<property name="MaxHealth" value="140"/>
 	<property name="ExperienceGain" value="1407"/>
 	<!--<property name="LootListOnDeath" value="74"/>-->
 	<property name="TintMaterial2" value="41,41,41"/>
@@ -2767,7 +2752,6 @@
 </entity_class>
 
 <entity_class name="zombieSkateboarderFOD" extends="zombieTemplateFodder">
-	<property name="MaxHealth" value="125"/>
 	<property name="ExperienceGain" value="679"/>
 	<property name="Mesh" value="Zombies/zombieStandardHoodieRagdoll"/>
 	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
@@ -2797,7 +2781,6 @@
 
 <entity_class name="zombieFarmerFOD" extends="zombieTemplateFodder">
 	<property name="Mesh" value="Zombies/zombieStandardFarmerRagdoll"/>
-	<property name="MaxHealth" value="125"/>
 	<property name="ExperienceGain" value="1039"/>
 	<!--<property name="LootListOnDeath" value="85"/>-->
 	<property name="WalkType" value="6"/>
@@ -4489,7 +4472,7 @@
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 	<property name="SoundSleeperSense" value="sleepersense"/>
 	<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
-	<property name="TimeStayAfterDeath" value="3"/>
+	<property name="TimeStayAfterDeath" value="2"/>
 	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.5"/>
 	<!--<property name="LootListOnDeath" value="15"/>-->
@@ -4664,27 +4647,10 @@
 		<property name="AITask-23" value="Wander"/>
 		
 	
-	<property class="MechanimAttackTriggers">
-		<property name="state0" value="AttackTrigger"/>
-	</property>
-	<property class="MechanimAttackStates">
-		<property name="state0" value="Attack"/>
-		<property name="state1" value="AttackStandingStill"/>
-	</property>
-	<property class="MechanimPainTriggers">
-		<property name="state0" value="PainTrigger"/>
-	</property>
-	<property class="MechanimPainStates">
-		<property name="state0" value="Pain"/>
-	</property>
-	<property class="MechanimDeathTriggers">
-		<property name="state0" value="DeathTrigger"/>
-	</property>
-	<property class="MechanimDeathStates">
-		<property name="state0" value="Death"/>
-	</property>
 	
-	<property name="MaxHealth" value="225"/>
+	
+	
+	<property name="MaxHealth" value="350"/>
 	<property name="MaxViewAngle" value="270"/>
 	<property name="HandItem" value="handGhoul"/>
 	<property name="Weight" value="70"/>
@@ -4697,7 +4663,7 @@
 	<property name="PanicSpeed" value="0.9"/>
 	
 	<property name="AttackTimeoutDay" value="0.75"/> <!-- in s -->
-	<property name="AttackTimeoutNight" value="0.55"/>
+	<property name="AttackTimeoutNight" value="0.75"/>
 
 	<property name="CanClimbLadders" value="true"/>
 	<property name="CanClimbVertical" value="false"/>
@@ -4733,7 +4699,7 @@
 	<property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain"/>
 	<property name="SoundDeath" value="Animals/Vulture/vulturedeath"/>
 	<property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
-	<property name="TimeStayAfterDeath" value="3"/>
+	<property name="TimeStayAfterDeath" value="2"/>
 	<!--<property name="LootListOnDeath" value="15"/>-->
 
 	<property name="CorpseBlock" value="ZedGoreGenericZeds"/>
@@ -4758,7 +4724,7 @@
 	<property name="UpperArmDismemberBonusChance" value="0.9"/>
 	<property name="LegCrawlerThreshold" value="0"/> <!-- at like .175 nearly every zombie knocked down from a leg hit turns into a crawler -->
 	<property name="LegCrippleThreshold" value="0.01"/>
-	<property name="KnockdownProneDamageThreshold" value="0.5"/>
+	<property name="KnockdownProneDamageThreshold" value="0.99"/> <!-- default "0.5" -->
 	<property name="KnockdownProneStunDuration" value="4,6"/>
 	<property name="KnockdownProneRefillRate" value="0.045,0.045"/>
 	<property name="KnockdownKneelDamageThreshold" value="0.4"/>
@@ -4772,7 +4738,7 @@
 
 
 <entity_class name="GhoulMale" extends="GhoulUMA">
-	<property name="MaxHealth" value="300" />
+	<property name="MaxHealth" value="350" />
     <property name="Archetype" value="GhoulMale"/>
 	<property name="Faction" value="undead" />
 	<property name="NPCID" value="GhoulNPC"/>
@@ -4780,21 +4746,21 @@
 </entity_class>
 
 <entity_class name="GhoulMale2" extends="GhoulUMA">
-	<property name="MaxHealth" value="300" />
+	<property name="MaxHealth" value="350" />
     <property name="Archetype" value="GhoulMale2"/>
 	<property name="Faction" value="undead" />
 	<property name="NPCID" value="GhoulNPC"/>
 </entity_class>
 
 <entity_class name="GhoulFemale" extends="GhoulUMA">
-	<property name="MaxHealth" value="300" />
+	<property name="MaxHealth" value="350" />
     <property name="Archetype" value="GhoulFemale"/>
 	<property name="Faction" value="undead" />
 	<property name="NPCID" value="GhoulNPC"/>
 </entity_class>
 
 <entity_class name="GhoulFemale2" extends="GhoulUMA">
-	<property name="MaxHealth" value="300" />
+	<property name="MaxHealth" value="350" />
 	<property name="WalkType" value="7" />
     <property name="Archetype" value="GhoulFemale2"/>
 	<property name="Faction" value="undead" />
@@ -4802,7 +4768,7 @@
 </entity_class>
 
 <entity_class name="GhoulFemaleScreamer" extends="GhoulUMA">
-	<property name="MaxHealth" value="300" />
+	<property name="MaxHealth" value="350" />
 	<property name="WalkType" value="7" />
     <property name="Archetype" value="GhoulFemaleScreamer"/>
 	<property name="Faction" value="undead" />
@@ -4810,7 +4776,7 @@
 </entity_class>
 
 <entity_class name="zombieHooker" extends="zombieUMATemplateMale">
-	<property name="MaxHealth" value="300" />
+	<property name="MaxHealth" value="350" />
 	<property name="WalkType" value="7" />
     <property name="Archetype" value="ZombieHooker"/>
 	<property name="AttackTimeoutDay" value="1.1"/> <!-- in s -->

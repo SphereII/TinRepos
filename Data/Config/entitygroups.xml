@@ -304,6 +304,58 @@
 	</entitygroup>
 	
 	
+	<entitygroup name="ZombieLDRAndFeralLDR">
+		<entity name="invisibleAnimalEnemy" prob="0.75"/>
+		<entity name="zombieBoeFeralLDR" prob="0.0083"/>
+		<entity name="zombieFemaleFatFeralLDR" prob="0.0083"/>
+		<entity name="zombieJoeFeralLDR" prob="0.0083"/>
+		<entity name="zombieMoeFeralLDR" prob="0.0083"/>
+		<entity name="zombieArleneFeralLDR" prob="0.0083"/>
+		<entity name="zombieDarleneFeralLDR" prob="0.0083"/>
+		<entity name="zombieMarleneFeralLDR" prob="0.0083"/>
+		<entity name="zombieYoFeralLDR" prob="0.0083"/>
+		<entity name="zombieSteveFeralLDR" prob="0.0083"/>
+		<entity name="zombieSteveCrawlerFeralLDR" prob="0.0083"/>
+		<entity name="zombieBusinessManFeralLDR" prob="0.0083"/>
+		<entity name="zombieSpiderFeralLDR" prob="0.0083"/>
+		<entity name="zombieNurseFeralLDR" prob="0.0083"/>
+		<entity name="zombieFatHawaiianFeralLDR" prob="0.0083"/>
+		<entity name="zombieFatCopFeralLDR" prob="0.0083"/>
+		<entity name="zombieUtilityWorkerFeralLDR" prob="0.0083"/>
+		<entity name="zombieSoldierFeralLDR" prob="0.0083"/>
+		<entity name="zombieSkateboarderFeralLDR" prob="0.0083"/>
+		<entity name="zombieCheerleaderFeralLDR" prob="0.0083"/>
+		<entity name="zombieOldTimerFeralLDR" prob="0.0083"/>
+		<entity name="zombieFarmerFeralLDR" prob="0.0083"/>
+		<!--<entity name="zombieStripperFeralLDR" prob="0.0083"/>-->
+		<entity name="zombieBoeLDR" prob="0.0416"/>
+		<entity name="zombieFootballPlayerLDR" prob="0.0416"/>
+		<entity name="zombieFemaleFatLDR" prob="0.0416"/>
+		<entity name="zombieJoeLDR" prob="0.0416"/>
+		<entity name="zombieMoeLDR" prob="0.0416"/>
+		<entity name="zombieArleneLDR" prob="0.0416"/>
+		<entity name="zombieDarleneLDR" prob="0.0416"/>
+		<entity name="zombieMarleneLDR" prob="0.0416"/>
+		<entity name="zombieYoLDR" prob="0.0416"/>
+		<entity name="zombieSteveLDR" prob="0.0416"/>
+		<entity name="zombieSteveCrawlerLDR" prob="0.0416"/>
+		<entity name="zombieBusinessManLDR" prob="0.0416"/>
+		<entity name="zombieSpiderLDR" prob="0.0416"/>
+		<entity name="zombieNurseLDR" prob="0.0416"/>
+		<entity name="zombieFatHawaiianLDR" prob="0.0416"/>
+		<entity name="zombieFatCopLDR" prob="0.0416"/>
+		<entity name="zombieMaleHazmatLDR" prob="0.0416"/>
+		<entity name="zombieUtilityWorkerLDR" prob="0.0416"/>
+		<entity name="zombieSoldierLDR" prob="0.0416"/>
+		<entity name="zombieSkateboarderLDR" prob="0.0416"/>
+		<entity name="zombieCheerleaderLDR" prob="0.0416"/>
+		<entity name="zombieOldTimerLDR" prob="0.0416"/>
+		<entity name="zombieFarmerLDR" prob="0.0416"/>
+		<entity name="zombieHooker" prob="0.0416"/>
+		<!--<entity name="zombieStripperLDR" prob="0.0416"/>-->
+	</entitygroup>
+	
+	
 	<entitygroup name="ZombieLDRFeralActiveMix">
 		<entity name="zombieFootballPlayerLDR" prob="0.125"/>
 		<entity name="zombieNurseLDR" prob="0.125"/>
@@ -416,7 +468,7 @@
 		<entity name="zombieSoldierLDR" prob="0.0156"/>
 		<entity name="zombieCheerleaderLDR" prob="0.0156"/>
 		<entity name="zombieBikerLDR" prob="0.0156"/>
-		<entity name="zombieHooker" prob="0.0156"/>
+		<!--<entity name="zombieHooker" prob="0.0156"/>-->
 		<!--<entity name="zombieStripperLDR" prob="0.0156"/>-->
 		<entity name="zombieWightFeralLDR" prob="0.0039"/>
 		<entity name="zombieBoeFeralLDR" prob="0.0039"/>
@@ -439,7 +491,7 @@
 		<entity name="zombieCheerleaderFeralLDR" prob="0.0039"/>
 		<entity name="zombieOldTimerFeralLDR" prob="0.0039"/>
 		<entity name="zombieFarmerFeralLDR" prob="0.0039"/>
-		<entity name="zombieHooker" prob="0.0039"/>
+		<!--<entity name="zombieHooker" prob="0.0039"/>-->
 		<!--<entity name="zombieStripperFeralLDR" prob="0.0039"/>-->
 	</entitygroup>
 	
@@ -643,9 +695,9 @@
 	</entitygroup>
 	
 	<entitygroup name="Ghouls">
-		<entity name="invisibleAnimalEnemy" prob="0.6"/>
-		<entity name="GhoulMale" prob="0.3"/>
-		<entity name="GhoulMale2" prob="0.3"/>
+		<entity name="invisibleAnimalEnemy" prob="0.475"/>
+		<entity name="GhoulMale" prob="0.2"/>
+		<entity name="GhoulMale2" prob="0.2"/>
 		<entity name="GhoulFemale" prob="0.2"/>
 		<entity name="GhoulFemale2" prob="0.2"/>
 		<entity name="GhoulFemaleScreamer" prob="0.2"/>
@@ -663,7 +715,7 @@
 
 
 	<entitygroup name="ZombieScouts">
-		<entity name="ScreamerBoss" prob="0.05"/>	
+		<entity name="ScreamerBoss" prob="0.2"/>	
 		<entity name="zombieScreamerLDR" prob="1"/>	
 		<!--<entity name="GhoulFemaleScreamer" prob="0.25"/>-->
 	</entitygroup>

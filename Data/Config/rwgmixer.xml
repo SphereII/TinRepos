@@ -51,7 +51,7 @@
 			biome_generator="" Name of Biome generator rules being used.
 		-->
 		
-		<ruleset name="tinsRules" cell_cache_size="8" cell_size="2100" cell_offset="0" generation_distance="21000" terrain_generator="tinsWorldGen1" biome_generator="tinsBiomeGen2">
+		<ruleset name="tinsRules" cell_cache_size="8" cell_size="2099" cell_offset="0" generation_distance="21000" terrain_generator="tinsWorldGen1" biome_generator="tinsBiomeGen2">
 			
 			<!--cell_rule: Name of Cell rules to use in the world. -->
 			<!-- Lower the prob="" value to increase hubs generated-->

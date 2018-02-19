@@ -398,11 +398,11 @@ If you do not declare them, the decorations of the main biome are used.
 			<spectrum name="pine_forest" />
 			<terrain class="Mountains"/>
 			
-			<subbiome prob="0.1"> <!-- Forest Sub Biome: Goldenrod, cotton, rocks -->
+			<subbiome prob="0.2"> <!-- Forest Sub Biome: Goldenrod, cotton, rocks -->
 			
 				<layers>
 				
-					<layer depth="5" blockname="grass"> <resource blockname="gravelPlusIron" cluster="1" prob="0.01" rwgGenerationType="all"/></layer>
+					<layer depth="5" blockname="grass"> <resource blockname="clay" cluster="1" prob="0.5" rwgGenerationType="all"/></layer>
 					<layer depth="2" blockname="dirt"> <resource blockname="gravelPlusIron" cluster="1" prob="0.811" rwgGenerationType="all"/> </layer>
 					<layer depth="*" blockname="stone">
 						<resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
@@ -426,7 +426,7 @@ If you do not declare them, the decorations of the main biome are used.
 				
 				<decorations>
 				
-					<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>
+					<!--<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>-->
 					<decoration type="block" blockname="treeAzalea" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="rock01" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="rock02" prob="0.001" rotatemax="4"/>
@@ -442,7 +442,7 @@ If you do not declare them, the decorations of the main biome are used.
 				
 			</subbiome>
 
-			<subbiome prob="0.25"> <!-- Ore Sub Biome: leadOre -->
+			<subbiome prob="0.2"> <!-- Ore Sub Biome: leadOre -->
 			
 				<layers>
 				
@@ -523,7 +523,7 @@ If you do not declare them, the decorations of the main biome are used.
 				
 			</subbiome>
 			
-			<subbiome prob="0.25"> <!-- Ore Sub Biome: potassiumNitrate -->
+			<subbiome prob="0.2"> <!-- Ore Sub Biome: potassiumNitrate -->
 			
 				<layers>
 				
@@ -720,7 +720,7 @@ If you do not declare them, the decorations of the main biome are used.
 			
 				<layers>
 				
-					<layer depth="3" blockname="forestGround"> <resource blockname="gravelPlusIron" cluster="1" prob="0.01" rwgGenerationType="all"/> </layer>
+					<layer depth="3" blockname="forestGround"> <resource blockname="clay" cluster="1" prob="0.5" rwgGenerationType="all"/> </layer>
 					<layer depth="2" blockname="dirt"> <resource blockname="gravelPlusIron" cluster="1" prob="0.811" rwgGenerationType="all"/> </layer>
 					<layer depth="*" blockname="stone">
 						<resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
@@ -744,7 +744,7 @@ If you do not declare them, the decorations of the main biome are used.
 				
 				<decorations>
 				
-					<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>
+					<!--<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>-->
 					<decoration type="block" blockname="treeBirch10m" prob="0.00525" rotatemax="4"/>
 					<decoration type="block" blockname="treeBirch12m" prob="0.00787" rotatemax="4"/>
 					<decoration type="block" blockname="treeBirch15m" prob="0.5" rotatemax="4"/>
@@ -979,7 +979,7 @@ If you do not declare them, the decorations of the main biome are used.
 			
 				<layers>
 				
-					<layer depth="3" blockname="plainsGround"> <resource blockname="gravelPlusIron" cluster="1" prob="0.01" rwgGenerationType="all"/> </layer>
+					<layer depth="3" blockname="plainsGround"> <resource blockname="clay" cluster="1" prob="0.5" rwgGenerationType="all"/> </layer>
 					<layer depth="2" blockname="dirt"> <resource blockname="gravelPlusIron" cluster="1" prob="0.811" rwgGenerationType="all"/> </layer>
 					<layer depth="*" blockname="stone">
 						<resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
@@ -1003,7 +1003,7 @@ If you do not declare them, the decorations of the main biome are used.
 				
 				<decorations>
 				
-					<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>
+					<!--<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>-->
 					<decoration type="prefab" name="tinRockForm01" prob="0.0014375" rotatemax="4"/>
 					<decoration type="prefab" name="tinRockForm01SLPR" prob="0.0014375" rotatemax="4"/>
 					<decoration type="prefab" name="rock_form01" prob="0.0007" rotatemax="4"/>
@@ -1196,7 +1196,7 @@ If you do not declare them, the decorations of the main biome are used.
 			
 				<layers>
 				
-					<layer depth="1" blockname="desertGround"><resource blockname="plainsGround" cluster="1" prob="0.187" rwgGenerationType="all"/> </layer>
+					<layer depth="1" blockname="desertGround"><resource blockname="clay" cluster="1" prob="0.5" rwgGenerationType="all"/> </layer>
 					<layer depth="19" blockname="sandStone"/>
 					<layer depth="*" blockname="destroyedStone">
 						<resource blockname="ironOre" cluster="1" prob="0.113" rwgGenerationType="all"/>
@@ -1211,7 +1211,7 @@ If you do not declare them, the decorations of the main biome are used.
 				
 				<decorations>
 				
-					<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>
+					<!--<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>-->
 					<decoration type="prefab" name="resource_coal_pile" prob="0.0007" rotatemax="4"/>
 					<decoration type="prefab" name="resource_nitrate_pile" prob="0.0007" rotatemax="4"/>
 					<decoration type="prefab" name="resource_lead_pile" prob="0.0007" rotatemax="4"/>
@@ -1355,7 +1355,7 @@ If you do not declare them, the decorations of the main biome are used.
 			
 				<layers>
 				
-					<layer depth="2" blockname="sand"> <resource blockname="gravelPlusIron" cluster="1" prob="0.01" rwgGenerationType="all"/> </layer> <!-- default sand -->
+					<layer depth="2" blockname="sand"> <resource blockname="clay" cluster="1" prob="0.5" rwgGenerationType="all"/> </layer> <!-- default sand -->
 					<layer depth="4" blockname="dirt"> <resource blockname="gravelPlusIron" cluster="1" prob="0.811" rwgGenerationType="all"/> </layer>
 					<layer depth="*" blockname="stone">
 						<resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
@@ -1371,7 +1371,7 @@ If you do not declare them, the decorations of the main biome are used.
 				
 				<decorations>
 				
-					<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>
+					<!--<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>-->
 					<decoration type="block" blockname="rock01" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="rock02" prob="0.001" rotatemax="4"/>
 					<decoration type="block" blockname="rock04" prob="0.001" rotatemax="4"/>
@@ -1431,7 +1431,7 @@ If you do not declare them, the decorations of the main biome are used.
 			
 				<layers>
 				
-					<layer depth="6" blockname="sand"> <resource blockname="clay" prob="0.15" rwgGenerationType="all"/> <resource blockname="gravelPlusLead" cluster="1" prob="0.01" rwgGenerationType="all"/> </layer>
+					<layer depth="6" blockname="sand"> <resource blockname="clay" prob="0.5" cluster="1" rwgGenerationType="all"/> <resource blockname="gravelPlusLead" cluster="1" prob="0.01" rwgGenerationType="all"/> </layer>
 					<layer depth="1" blockname="stone"> <resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer>
 					<layer depth="*" blockname="stone"> <resource blockname="leadOre" cluster="1" prob="0.1030" rwgGenerationType="all"/> <resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer> <layer depth="1" blockname="stone"> <resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer> <layer depth="3" blockname="bedrock"/>
 					
@@ -1443,7 +1443,7 @@ If you do not declare them, the decorations of the main biome are used.
 			
 				<layers>
 				
-					<layer depth="6" blockname="sand"> <resource blockname="clay" prob="0.15" rwgGenerationType="all"/> <resource blockname="gravelPlusCoal" cluster="1" prob="0.01" rwgGenerationType="all"/> </layer>
+					<layer depth="6" blockname="sand"> <resource blockname="clay" prob="0.5" cluster="1" rwgGenerationType="all"/> <resource blockname="gravelPlusCoal" cluster="1" prob="0.01" rwgGenerationType="all"/> </layer>
 					<layer depth="1" blockname="stone"> <resource blockname="gravelPlusCoal" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer>
 					<layer depth="*" blockname="stone"> <resource blockname="coalOre" cluster="1" prob="0.1030" rwgGenerationType="all"/> <resource blockname="gravelPlusCoal" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer> <layer depth="1" blockname="stone"> <resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer> <layer depth="3" blockname="bedrock"/>
 					
@@ -1455,7 +1455,7 @@ If you do not declare them, the decorations of the main biome are used.
 			
 				<layers>
 				
-					<layer depth="6" blockname="sand"> <resource blockname="clay" prob="0.15" rwgGenerationType="all"/> <resource blockname="gravelPlusPotassium" cluster="1" prob="0.01" rwgGenerationType="all"/> </layer>
+					<layer depth="6" blockname="sand"> <resource blockname="clay" prob="0.5" cluster="1" rwgGenerationType="all"/> <resource blockname="gravelPlusPotassium" cluster="1" prob="0.01" rwgGenerationType="all"/> </layer>
 					<layer depth="1" blockname="stone"> <resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer>
 					<layer depth="*" blockname="stone"> <resource blockname="potassiumNitrate" cluster="1" prob="0.1030" rwgGenerationType="all"/> <resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer> <layer depth="1" blockname="stone"> <resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer> <layer depth="3" blockname="bedrock"/>
 					
@@ -1467,11 +1467,11 @@ If you do not declare them, the decorations of the main biome are used.
 			
 				<layer filluptorg="58" blockname="water"/>   <!-- Block layers: Water, Local ore: none -->	
 				<layer depth="2" blockname="sand">
-					<resource blockname="clay" prob="0.15" rwgGenerationType="all"/>
+					<resource blockname="clay" prob="0.5" cluster="1" rwgGenerationType="all"/>
 					<resource blockname="gravelPlusIron" cluster="1" prob="0.071" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="5" blockname="sand">
-					<resource blockname="clay" prob="0.15" rwgGenerationType="all"/>
+					<resource blockname="clay" prob="0.15" cluster="1" rwgGenerationType="all"/>
 					<resource blockname="gravelPlusIron" cluster="1" prob="0.811" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="*" blockname="stone">
@@ -1926,7 +1926,7 @@ If you do not declare them, the decorations of the main biome are used.
 			
 				<layers>
 				
-					<layer depth="3" blockname="burntForestGround"> <resource blockname="grass" cluster="1" prob="0.187" rwgGenerationType="all"/> <resource blockname="gravelPlusLead" cluster="1" prob="0.811" rwgGenerationType="all"/> </layer>
+					<layer depth="3" blockname="burntForestGround"> <resource blockname="clay" cluster="1" prob="0.5" rwgGenerationType="all"/> <resource blockname="gravelPlusLead" cluster="1" prob="0.811" rwgGenerationType="all"/> </layer>
 					<layer depth="2" blockname="dirt"> <resource blockname="clay" cluster="1" prob="0.08" rwgGenerationType="all"/> <resource blockname="gravelPlusLead" cluster="1" prob="0.811" rwgGenerationType="all"/> </layer>
 					<layer depth="1" blockname="stone"> <resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer>
 					<layer depth="*" blockname="stone"> <resource blockname="leadOre" cluster="1" prob="0.1030" rwgGenerationType="all"/> <resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer> <layer depth="1" blockname="stone"> <resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/> </layer> <layer depth="3" blockname="bedrock"/>
@@ -1935,7 +1935,7 @@ If you do not declare them, the decorations of the main biome are used.
 				
 				<decorations>
 				
-					<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>
+					<!--<decoration type="prefab" name="guppyClay3" prob="0.05" rotatemax="4"/>-->
 					<decoration type="prefab" name="guppyCoal" prob="0.0007" rotatemax="4"/>
 					<!--<decoration type="block" blockname="tinMistParticle" prob="0.00033"/>-->
 					<decoration type="block" blockname="treeAzalea" prob="0.0002" rotatemax="4"/>
